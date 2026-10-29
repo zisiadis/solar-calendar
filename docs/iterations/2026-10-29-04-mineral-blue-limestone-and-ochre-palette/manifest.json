@@ -1,0 +1,70 @@
+{
+  "title": "Mineral blue limestone and ochre palette",
+  "summary": "Palette-only refinement: replaced the grey-green midpoint with warm limestone at 12 hours, softened winter into mineral blue and summer into ochre gold, and interpolated in OKLab. Kept the existing shared daylight scale, geometry, calculations, layout and controls unchanged.",
+  "visualSourceHash": "7f5569cbdc36a3c343237ee24bbb235e9d39b85a07fb19ef9bae8610ef96aa07",
+  "capturedAt": "2026-10-29T12:28:19.984Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "e0588b9d894cf84244365aa057f1c700d552786a79b469fc5e949873ec340211",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Continuous solstice blue to yellow",
+  "summary": "Explored a new color direction: one continuous perceptual gradient from deep winter blue to bright summer yellow, following solstice phase throughout the year and reversing in the Southern Hemisphere. Removed the limestone midpoint and tightened transition curve. Radial lengths still show actual daylight hours; interface and layout are unchanged.",
+  "visualSourceHash": "38f0943b6c10c202db16d8f5e35399c26764ddf20bbfe25d21e5ae022dcba918",
+  "capturedAt": "2026-10-29T12:48:59.806Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "6a39d969d825faefc91e4680c205064d9570948d9fb04ec7e468477b0ab03bcb",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    }
+  ]
+}

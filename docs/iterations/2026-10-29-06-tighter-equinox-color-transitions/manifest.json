@@ -1,0 +1,70 @@
+{
+  "title": "Tighter equinox color transitions",
+  "summary": "Concentrated the warm limestone transition into a narrower range around twelve hours using a smooth symmetric contrast curve. Blue and sunny gold now occupy more of the year away from the equator, while the exact equatorial midpoint, color endpoints, daylight data, radial geometry, layout and controls remain unchanged.",
+  "visualSourceHash": "90853ed92e37b16ad4d87a833785c63e386ee7a3e21986aa7c8c24f27a8b266a",
+  "capturedAt": "2026-10-29T12:40:08.128Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "8031c6fd00c07050767ce2551f9a5ac9b9a3760714dbed33ae81257f18fbe493",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "title": "Four celestial turning-point inflections",
+  "summary": "Added precise, restrained color inflections on the actual astronomical event dates: deeper winter blue, luminous summer yellow, and paper-light equinox peaks. Each event has a soft approach across neighboring days with a distinct center. Seasonal photoperiod range controls emphasis so the equator stays quiet. Radial daylight measurements, geometry and interface remain unchanged.",
+  "visualSourceHash": "be58aec483eb1884d191e20a31c40077eceb44879787bd3065b6be1fe601b2e9",
+  "capturedAt": "2026-10-29T13:18:50.754Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "0be6659d8f1c73b0b22a1a5f2a5914cec0d3691ac938f14000cd64e8bdd94ac7",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    }
+  ]
+}

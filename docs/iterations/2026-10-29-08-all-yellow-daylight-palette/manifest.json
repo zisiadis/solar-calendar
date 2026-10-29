@@ -1,0 +1,70 @@
+{
+  "title": "All-yellow daylight palette",
+  "summary": "Explored a monochromatic yellow direction from deep golden saffron on shorter days to luminous sun yellow on longer days. Color again follows actual daylight duration on a shared continuous scale, preserving an almost uniform equatorial ring. Kept radial geometry, calculations, labels, layout and controls unchanged.",
+  "visualSourceHash": "ebfdf227ff0cfb29a166f1c9a384af8badb3f92273ba92dd3306a40097b72553",
+  "capturedAt": "2026-10-29T12:55:18.927Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "2678f2111c370dbb56c22b227f7813ec809a3ee344680b0f3d1bad593c6cf721",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    }
+  ]
+}
