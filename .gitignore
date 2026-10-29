@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+/visual-history.zip
+/docs/iterations/.capture-*/
+
+# Generated standalone previews; reproduce with npm run export:html
+/solar-year.html
+/solar-year-browser-preview.zip

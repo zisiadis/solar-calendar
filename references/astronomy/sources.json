@@ -1,0 +1,22 @@
+{
+  "model": "Astronomy Engine 2.1.19, truncated VSOP87",
+  "referenceAuthority": "NASA/JPL Horizons",
+  "referenceEphemeris": "DE431mx, per original table headers",
+  "referenceDelivery": "Unmodified archived Horizons output retrieved from the Astronomy Engine validation repository, not new direct NASA API responses.",
+  "archiveCommit": "865d3da7d8112bbc7911238052c6af4aaf877181",
+  "files": [
+    {
+      "file": "jpl-airless-sun-2019.txt",
+      "sha256": "bd9c337e4a33a622d1cc85dea27f8987077bfd7f8298df54dbefd62659006394",
+      "archiveUrl": "https://github.com/cosinekitty/astronomy/blob/865d3da7d8112bbc7911238052c6af4aaf877181/generate/horizons/airless_Sun_equinox.txt"
+    },
+    {
+      "file": "jpl-sun-1900-2100.txt",
+      "sha256": "e6decbb17e34395a2aea4b0f52733f32c4596dd56084e1fdbaae0498ae544415",
+      "archiveUrl": "https://github.com/cosinekitty/astronomy/blob/865d3da7d8112bbc7911238052c6af4aaf877181/generate/horizons/Sun.txt"
+    }
+  ],
+  "definition": "Solar-center topocentric altitude > 0 degrees; WGS84 observer at elevation zero. No atmosphere, terrain, limb correction or twilight. Integrate within the 24-hour local mean solar date (UTC midnight minus longitude/15 hours).",
+  "runtime": "Pinned coefficients bundled locally; location-specific yearly results computed and cached locally.",
+  "accuracy": "Numerical model, not exact measurements. Astronomy Engine targets positions within 1 arcminute. Grazing polar crossings are especially sensitive to angular error."
+}

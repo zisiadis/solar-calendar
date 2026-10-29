@@ -1,0 +1,2204 @@
+{
+  "source": "Calculated from pinned Astronomy Engine 2.1.19 coefficients; validated against archived NASA/JPL Horizons DE431mx. These rows are local model output, not a direct JPL download.",
+  "frame": "Geocentric apparent equatorial of date",
+  "epoch": "12:00 UTC each date",
+  "year": 2026,
+  "events": {
+    "mar_equinox": "2026-03-20T14:45:36.044Z",
+    "jun_solstice": "2026-06-21T08:25:00.316Z",
+    "sep_equinox": "2026-09-23T00:05:38.617Z",
+    "dec_solstice": "2026-12-21T20:50:22.187Z"
+  },
+  "rows": [
+    {
+      "utc": "2026-01-01T12:00:00.000Z",
+      "rightAscensionHours": 18.80309470570268,
+      "declinationDegrees": -22.976034650609986,
+      "distanceAU": 0.9833174582636329
+    },
+    {
+      "utc": "2026-01-02T12:00:00.000Z",
+      "rightAscensionHours": 18.876570843529716,
+      "declinationDegrees": -22.887643285582755,
+      "distanceAU": 0.9833062008869548
+    },
+    {
+      "utc": "2026-01-03T12:00:00.000Z",
+      "rightAscensionHours": 18.94994685010796,
+      "declinationDegrees": -22.79167210710943,
+      "distanceAU": 0.9833015498010981
+    },
+    {
+      "utc": "2026-01-04T12:00:00.000Z",
+      "rightAscensionHours": 19.023215241126316,
+      "declinationDegrees": -22.68816682195945,
+      "distanceAU": 0.9833035191969562
+    },
+    {
+      "utc": "2026-01-05T12:00:00.000Z",
+      "rightAscensionHours": 19.096368807886712,
+      "declinationDegrees": -22.57717532071305,
+      "distanceAU": 0.983312034628156
+    },
+    {
+      "utc": "2026-01-06T12:00:00.000Z",
+      "rightAscensionHours": 19.169400646703295,
+      "declinationDegrees": -22.458747854533463,
+      "distanceAU": 0.9833269443274356
+    },
+    {
+      "utc": "2026-01-07T12:00:00.000Z",
+      "rightAscensionHours": 19.242304161550205,
+      "declinationDegrees": -22.332937397276506,
+      "distanceAU": 0.9833480360523252
+    },
+    {
+      "utc": "2026-01-08T12:00:00.000Z",
+      "rightAscensionHours": 19.31507303333952,
+      "declinationDegrees": -22.199800124336186,
+      "distanceAU": 0.9833750567674442
+    },
+    {
+      "utc": "2026-01-09T12:00:00.000Z",
+      "rightAscensionHours": 19.387701156855425,
+      "declinationDegrees": -22.0593959192649,
+      "distanceAU": 0.983407732305385
+    },
+    {
+      "utc": "2026-01-10T12:00:00.000Z",
+      "rightAscensionHours": 19.460182553471732,
+      "declinationDegrees": -21.911788816239365,
+      "distanceAU": 0.9834457844883094
+    },
+    {
+      "utc": "2026-01-11T12:00:00.000Z",
+      "rightAscensionHours": 19.53251127567815,
+      "declinationDegrees": -21.75704729566702,
+      "distanceAU": 0.9834889439593884
+    },
+    {
+      "utc": "2026-01-12T12:00:00.000Z",
+      "rightAscensionHours": 19.604681320040644,
+      "declinationDegrees": -21.595244382249845,
+      "distanceAU": 0.9835369580047839
+    },
+    {
+      "utc": "2026-01-13T12:00:00.000Z",
+      "rightAscensionHours": 19.67668656766134,
+      "declinationDegrees": -21.426457525328292,
+      "distanceAU": 0.9835895937406286
+    },
+    {
+      "utc": "2026-01-14T12:00:00.000Z",
+      "rightAscensionHours": 19.748520765748165,
+      "declinationDegrees": -21.25076828217257,
+      "distanceAU": 0.9836466379760632
+    },
+    {
+      "utc": "2026-01-15T12:00:00.000Z",
+      "rightAscensionHours": 19.820177557611082,
+      "declinationDegrees": -21.06826185683419,
+      "distanceAU": 0.9837078956642341
+    },
+    {
+      "utc": "2026-01-16T12:00:00.000Z",
+      "rightAscensionHours": 19.891650559939645,
+      "declinationDegrees": -20.87902656916674,
+      "distanceAU": 0.9837731890037494
+    },
+    {
+      "utc": "2026-01-17T12:00:00.000Z",
+      "rightAscensionHours": 19.962933477888132,
+      "declinationDegrees": -20.683153335557904,
+      "distanceAU": 0.983842358930304
+    },
+    {
+      "utc": "2026-01-18T12:00:00.000Z",
+      "rightAscensionHours": 20.034020241870603,
+      "declinationDegrees": -20.48073523396991,
+      "distanceAU": 0.9839152700125722
+    },
+    {
+      "utc": "2026-01-19T12:00:00.000Z",
+      "rightAscensionHours": 20.104905146372793,
+      "declinationDegrees": -20.271867203134903,
+      "distanceAU": 0.9839918187887762
+    },
+    {
+      "utc": "2026-01-20T12:00:00.000Z",
+      "rightAscensionHours": 20.175582971190806,
+      "declinationDegrees": -20.056645894022527,
+      "distanceAU": 0.9840719445521566
+    },
+    {
+      "utc": "2026-01-21T12:00:00.000Z",
+      "rightAscensionHours": 20.24604906927543,
+      "declinationDegrees": -19.835169657390697,
+      "distanceAU": 0.9841556407279979
+    },
+    {
+      "utc": "2026-01-22T12:00:00.000Z",
+      "rightAscensionHours": 20.31629941198285,
+      "declinationDegrees": -19.607538621298637,
+      "distanceAU": 0.9842429644652657
+    },
+    {
+      "utc": "2026-01-23T12:00:00.000Z",
+      "rightAscensionHours": 20.386330590658126,
+      "declinationDegrees": -19.37385479284657,
+      "distanceAU": 0.9843340420097948
+    },
+    {
+      "utc": "2026-01-24T12:00:00.000Z",
+      "rightAscensionHours": 20.45613978143657,
+      "declinationDegrees": -19.134222113073996,
+      "distanceAU": 0.9844290678618557
+    },
+    {
+      "utc": "2026-01-25T12:00:00.000Z",
+      "rightAscensionHours": 20.5257246863578,
+      "declinationDegrees": -18.88874640392485,
+      "distanceAU": 0.9845282965822234
+    },
+    {
+      "utc": "2026-01-26T12:00:00.000Z",
+      "rightAscensionHours": 20.595083467106246,
+      "declinationDegrees": -18.63753516958684,
+      "distanceAU": 0.9846320272474229
+    },
+    {
+      "utc": "2026-01-27T12:00:00.000Z",
+      "rightAscensionHours": 20.664214687354647,
+      "declinationDegrees": -18.380697246645465,
+      "distanceAU": 0.9847405817615634
+    },
+    {
+      "utc": "2026-01-28T12:00:00.000Z",
+      "rightAscensionHours": 20.733117275929274,
+      "declinationDegrees": -18.118342332063087,
+      "distanceAU": 0.984854279287275
+    },
+    {
+      "utc": "2026-01-29T12:00:00.000Z",
+      "rightAscensionHours": 20.801790516725152,
+      "declinationDegrees": -17.850580448040844,
+      "distanceAU": 0.9849734097653315
+    },
+    {
+      "utc": "2026-01-30T12:00:00.000Z",
+      "rightAscensionHours": 20.870234063848056,
+      "declinationDegrees": -17.577521422344876,
+      "distanceAU": 0.985098209718097
+    },
+    {
+      "utc": "2026-01-31T12:00:00.000Z",
+      "rightAscensionHours": 20.938447973511245,
+      "declinationDegrees": -17.299274467457124,
+      "distanceAU": 0.9852288432305311
+    },
+    {
+      "utc": "2026-02-01T12:00:00.000Z",
+      "rightAscensionHours": 21.006432739224344,
+      "declinationDegrees": -17.015947930886338,
+      "distanceAU": 0.9853653902256739
+    },
+    {
+      "utc": "2026-02-02T12:00:00.000Z",
+      "rightAscensionHours": 21.074189314929594,
+      "declinationDegrees": -16.72764926369013,
+      "distanceAU": 0.9855078430383685
+    },
+    {
+      "utc": "2026-02-03T12:00:00.000Z",
+      "rightAscensionHours": 21.141719112362743,
+      "declinationDegrees": -16.434485219352705,
+      "distanceAU": 0.9856561110416443
+    },
+    {
+      "utc": "2026-02-04T12:00:00.000Z",
+      "rightAscensionHours": 21.209023963742887,
+      "declinationDegrees": -16.136562256965927,
+      "distanceAU": 0.9858100319183961
+    },
+    {
+      "utc": "2026-02-05T12:00:00.000Z",
+      "rightAscensionHours": 21.276106047932007,
+      "declinationDegrees": -15.83398708822754,
+      "distanceAU": 0.985969387302005
+    },
+    {
+      "utc": "2026-02-06T12:00:00.000Z",
+      "rightAscensionHours": 21.34296778600669,
+      "declinationDegrees": -15.52686728336996,
+      "distanceAU": 0.9861339200814365
+    },
+    {
+      "utc": "2026-02-07T12:00:00.000Z",
+      "rightAscensionHours": 21.409611719077507,
+      "declinationDegrees": -15.215311841428171,
+      "distanceAU": 0.9863033507427345
+    },
+    {
+      "utc": "2026-02-08T12:00:00.000Z",
+      "rightAscensionHours": 21.476040385761177,
+      "declinationDegrees": -14.899431636797654,
+      "distanceAU": 0.9864773906673873
+    },
+    {
+      "utc": "2026-02-09T12:00:00.000Z",
+      "rightAscensionHours": 21.54225621793241,
+      "declinationDegrees": -14.579339675702627,
+      "distanceAU": 0.9866557512076032
+    },
+    {
+      "utc": "2026-02-10T12:00:00.000Z",
+      "rightAscensionHours": 21.60826147097196,
+      "declinationDegrees": -14.2551511288201,
+      "distanceAU": 0.9868381484227543
+    },
+    {
+      "utc": "2026-02-11T12:00:00.000Z",
+      "rightAscensionHours": 21.674058199127064,
+      "declinationDegrees": -13.926983143795622,
+      "distanceAU": 0.9870243043752582
+    },
+    {
+      "utc": "2026-02-12T12:00:00.000Z",
+      "rightAscensionHours": 21.739648278896667,
+      "declinationDegrees": -13.594954476867544,
+      "distanceAU": 0.9872139466457129
+    },
+    {
+      "utc": "2026-02-13T12:00:00.000Z",
+      "rightAscensionHours": 21.805033475095378,
+      "declinationDegrees": -13.259185009738314,
+      "distanceAU": 0.9874068080859487
+    },
+    {
+      "utc": "2026-02-14T12:00:00.000Z",
+      "rightAscensionHours": 21.870215537049702,
+      "declinationDegrees": -12.919795231596568,
+      "distanceAU": 0.9876026287153642
+    },
+    {
+      "utc": "2026-02-15T12:00:00.000Z",
+      "rightAscensionHours": 21.935196307688667,
+      "declinationDegrees": -12.576905764475832,
+      "distanceAU": 0.9878011611050938
+    },
+    {
+      "utc": "2026-02-16T12:00:00.000Z",
+      "rightAscensionHours": 21.999977826988562,
+      "declinationDegrees": -12.230636993857672,
+      "distanceAU": 0.9880021797002492
+    },
+    {
+      "utc": "2026-02-17T12:00:00.000Z",
+      "rightAscensionHours": 22.064562413529853,
+      "declinationDegrees": -11.881108839137223,
+      "distanceAU": 0.9882054934837543
+    },
+    {
+      "utc": "2026-02-18T12:00:00.000Z",
+      "rightAscensionHours": 22.12895271329065,
+      "declinationDegrees": -11.528440665915127,
+      "distanceAU": 0.988410960399496
+    },
+    {
+      "utc": "2026-02-19T12:00:00.000Z",
+      "rightAscensionHours": 22.193151712078684,
+      "declinationDegrees": -11.172751310663793,
+      "distanceAU": 0.9886185012316061
+    },
+    {
+      "utc": "2026-02-20T12:00:00.000Z",
+      "rightAscensionHours": 22.25716271565388,
+      "declinationDegrees": -10.814159164432965,
+      "distanceAU": 0.9888281103357796
+    },
+    {
+      "utc": "2026-02-21T12:00:00.000Z",
+      "rightAscensionHours": 22.320989308021087,
+      "declinationDegrees": -10.452782250647616,
+      "distanceAU": 0.9890398608132848
+    },
+    {
+      "utc": "2026-02-22T12:00:00.000Z",
+      "rightAscensionHours": 22.384635302268276,
+      "declinationDegrees": -10.088738234919942,
+      "distanceAU": 0.9892539023898176
+    },
+    {
+      "utc": "2026-02-23T12:00:00.000Z",
+      "rightAscensionHours": 22.448104698892003,
+      "declinationDegrees": -9.722144321668623,
+      "distanceAU": 0.9894704512987399
+    },
+    {
+      "utc": "2026-02-24T12:00:00.000Z",
+      "rightAscensionHours": 22.511401663751695,
+      "declinationDegrees": -9.353117019654809,
+      "distanceAU": 0.9896897726893281
+    },
+    {
+      "utc": "2026-02-25T12:00:00.000Z",
+      "rightAscensionHours": 22.57453053224996,
+      "declinationDegrees": -8.981771790956007,
+      "distanceAU": 0.9899121572657547
+    },
+    {
+      "utc": "2026-02-26T12:00:00.000Z",
+      "rightAscensionHours": 22.63749583929299,
+      "declinationDegrees": -8.608222628763608,
+      "distanceAU": 0.9901378947961462
+    },
+    {
+      "utc": "2026-02-27T12:00:00.000Z",
+      "rightAscensionHours": 22.700302367568913,
+      "declinationDegrees": -8.232581632504413,
+      "distanceAU": 0.9903672476422863
+    },
+    {
+      "utc": "2026-02-28T12:00:00.000Z",
+      "rightAscensionHours": 22.762955201257736,
+      "declinationDegrees": -7.8549586591316345,
+      "distanceAU": 0.9906004274556802
+    },
+    {
+      "utc": "2026-03-01T12:00:00.000Z",
+      "rightAscensionHours": 22.825459769611392,
+      "declinationDegrees": -7.4754611248473415,
+      "distanceAU": 0.9908375776656643
+    },
+    {
+      "utc": "2026-03-02T12:00:00.000Z",
+      "rightAscensionHours": 22.88782186559221,
+      "declinationDegrees": -7.094194012114245,
+      "distanceAU": 0.9910787634457878
+    },
+    {
+      "utc": "2026-03-03T12:00:00.000Z",
+      "rightAscensionHours": 22.950047628784638,
+      "declinationDegrees": -6.711260106163177,
+      "distanceAU": 0.9913239696578116
+    },
+    {
+      "utc": "2026-03-04T12:00:00.000Z",
+      "rightAscensionHours": 23.012143488332544,
+      "declinationDegrees": -6.326760448617818,
+      "distanceAU": 0.9915731060544716
+    },
+    {
+      "utc": "2026-03-05T12:00:00.000Z",
+      "rightAscensionHours": 23.074116069364468,
+      "declinationDegrees": -5.940794960066257,
+      "distanceAU": 0.991826017991705
+    },
+    {
+      "utc": "2026-03-06T12:00:00.000Z",
+      "rightAscensionHours": 23.135972073671564,
+      "declinationDegrees": -5.5534631549792355,
+      "distanceAU": 0.9920825002393635
+    },
+    {
+      "utc": "2026-03-07T12:00:00.000Z",
+      "rightAscensionHours": 23.197718150777757,
+      "declinationDegrees": -5.164864856622265,
+      "distanceAU": 0.9923423112954068
+    },
+    {
+      "utc": "2026-03-08T12:00:00.000Z",
+      "rightAscensionHours": 23.259360777881206,
+      "declinationDegrees": -4.775100819374361,
+      "distanceAU": 0.9926051859190173
+    },
+    {
+      "utc": "2026-03-09T12:00:00.000Z",
+      "rightAscensionHours": 23.32090616593855,
+      "declinationDegrees": -4.384273181271491,
+      "distanceAU": 0.9928708443253944
+    },
+    {
+      "utc": "2026-03-10T12:00:00.000Z",
+      "rightAscensionHours": 23.382360204647192,
+      "declinationDegrees": -3.9924856977126875,
+      "distanceAU": 0.9931389974727021
+    },
+    {
+      "utc": "2026-03-11T12:00:00.000Z",
+      "rightAscensionHours": 23.443728452144207,
+      "declinationDegrees": -3.5998437430223627,
+      "distanceAU": 0.9934093489151807
+    },
+    {
+      "utc": "2026-03-12T12:00:00.000Z",
+      "rightAscensionHours": 23.505016167309837,
+      "declinationDegrees": -3.2064541032225637,
+      "distanceAU": 0.9936815945829466
+    },
+    {
+      "utc": "2026-03-13T12:00:00.000Z",
+      "rightAscensionHours": 23.566228375212823,
+      "declinationDegrees": -2.8124246144268743,
+      "distanceAU": 0.9939554223986442
+    },
+    {
+      "utc": "2026-03-14T12:00:00.000Z",
+      "rightAscensionHours": 23.627369950943567,
+      "declinationDegrees": -2.4178637211457303,
+      "distanceAU": 0.9942305137418265
+    },
+    {
+      "utc": "2026-03-15T12:00:00.000Z",
+      "rightAscensionHours": 23.688445704886103,
+      "declinationDegrees": -2.0228800341381157,
+      "distanceAU": 0.994506548401291
+    },
+    {
+      "utc": "2026-03-16T12:00:00.000Z",
+      "rightAscensionHours": 23.74946045375876,
+      "declinationDegrees": -1.627581957783717,
+      "distanceAU": 0.9947832138852639
+    },
+    {
+      "utc": "2026-03-17T12:00:00.000Z",
+      "rightAscensionHours": 23.8104190661741,
+      "declinationDegrees": -1.2320774345759467,
+      "distanceAU": 0.9950602189410417
+    },
+    {
+      "utc": "2026-03-18T12:00:00.000Z",
+      "rightAscensionHours": 23.871326478039677,
+      "declinationDegrees": -0.8364738240048507,
+      "distanceAU": 0.9953373100725297
+    },
+    {
+      "utc": "2026-03-19T12:00:00.000Z",
+      "rightAscensionHours": 23.932187680415375,
+      "declinationDegrees": -0.4408779009991819,
+      "distanceAU": 0.995614288950913
+    },
+    {
+      "utc": "2026-03-20T12:00:00.000Z",
+      "rightAscensionHours": 23.99300768888181,
+      "declinationDegrees": -0.04539593176556176,
+      "distanceAU": 0.9958910280754262
+    },
+    {
+      "utc": "2026-03-21T12:00:00.000Z",
+      "rightAscensionHours": 0.05379150769817558,
+      "declinationDegrees": 0.34986623234707387,
+      "distanceAU": 0.9961674819775207
+    },
+    {
+      "utc": "2026-03-22T12:00:00.000Z",
+      "rightAscensionHours": 0.11454410312041191,
+      "declinationDegrees": 0.7448031058690141,
+      "distanceAU": 0.9964436917025069
+    },
+    {
+      "utc": "2026-03-23T12:00:00.000Z",
+      "rightAscensionHours": 0.17527039800143504,
+      "declinationDegrees": 1.139309617322367,
+      "distanceAU": 0.9967197811823982
+    },
+    {
+      "utc": "2026-03-24T12:00:00.000Z",
+      "rightAscensionHours": 0.23597529467017175,
+      "declinationDegrees": 1.5332812836931209,
+      "distanceAU": 0.9969959452821753
+    },
+    {
+      "utc": "2026-03-25T12:00:00.000Z",
+      "rightAscensionHours": 0.29666372621322734,
+      "declinationDegrees": 1.9266145101335714,
+      "distanceAU": 0.9972724305529265
+    },
+    {
+      "utc": "2026-03-26T12:00:00.000Z",
+      "rightAscensionHours": 0.35734072912004117,
+      "declinationDegrees": 2.3192069818865084,
+      "distanceAU": 0.9975495108354389
+    },
+    {
+      "utc": "2026-03-27T12:00:00.000Z",
+      "rightAscensionHours": 0.41801152436929995,
+      "declinationDegrees": 2.7109580886654925,
+      "distanceAU": 0.9978274606273985
+    },
+    {
+      "utc": "2026-03-28T12:00:00.000Z",
+      "rightAscensionHours": 0.4786815907137393,
+      "declinationDegrees": 3.1017693055907665,
+      "distanceAU": 0.9981065294190317
+    },
+    {
+      "utc": "2026-03-29T12:00:00.000Z",
+      "rightAscensionHours": 0.5393567139394144,
+      "declinationDegrees": 3.491544452932006,
+      "distanceAU": 0.9983869199662231
+    },
+    {
+      "utc": "2026-03-30T12:00:00.000Z",
+      "rightAscensionHours": 0.6000429992876001,
+      "declinationDegrees": 3.8801897701078762,
+      "distanceAU": 0.9986687727541945
+    },
+    {
+      "utc": "2026-03-31T12:00:00.000Z",
+      "rightAscensionHours": 0.6607468404019252,
+      "declinationDegrees": 4.267613765672442,
+      "distanceAU": 0.9989521578441048
+    },
+    {
+      "utc": "2026-04-01T12:00:00.000Z",
+      "rightAscensionHours": 0.7214748458745407,
+      "declinationDegrees": 4.6537268397808,
+      "distanceAU": 0.9992370740866571
+    },
+    {
+      "utc": "2026-04-02T12:00:00.000Z",
+      "rightAscensionHours": 0.7822337321529746,
+      "declinationDegrees": 5.0384407125423225,
+      "distanceAU": 0.9995234545528879
+    },
+    {
+      "utc": "2026-04-03T12:00:00.000Z",
+      "rightAscensionHours": 0.843030197689424,
+      "declinationDegrees": 5.421667724045929,
+      "distanceAU": 0.9998111761772098
+    },
+    {
+      "utc": "2026-04-04T12:00:00.000Z",
+      "rightAscensionHours": 0.9038707965131145,
+      "declinationDegrees": 5.803320093597437,
+      "distanceAU": 1.0001000711799428
+    },
+    {
+      "utc": "2026-04-05T12:00:00.000Z",
+      "rightAscensionHours": 0.9647618292264221,
+      "declinationDegrees": 6.183309232825569,
+      "distanceAU": 1.0003899379007863
+    },
+    {
+      "utc": "2026-04-06T12:00:00.000Z",
+      "rightAscensionHours": 1.025709265818248,
+      "declinationDegrees": 6.561545198451392,
+      "distanceAU": 1.0006805492005173
+    },
+    {
+      "utc": "2026-04-07T12:00:00.000Z",
+      "rightAscensionHours": 1.0867187083923988,
+      "declinationDegrees": 6.937936347210744,
+      "distanceAU": 1.0009716574563674
+    },
+    {
+      "utc": "2026-04-08T12:00:00.000Z",
+      "rightAscensionHours": 1.147795394242341,
+      "declinationDegrees": 7.312389222078973,
+      "distanceAU": 1.0012629962030088
+    },
+    {
+      "utc": "2026-04-09T12:00:00.000Z",
+      "rightAscensionHours": 1.2089442322231856,
+      "declinationDegrees": 7.684808661599289,
+      "distanceAU": 1.0015542794425296
+    },
+    {
+      "utc": "2026-04-10T12:00:00.000Z",
+      "rightAscensionHours": 1.2701698596157094,
+      "declinationDegrees": 8.05509808968833,
+      "distanceAU": 1.0018452003626963
+    },
+    {
+      "utc": "2026-04-11T12:00:00.000Z",
+      "rightAscensionHours": 1.3314767037901578,
+      "declinationDegrees": 8.423159917945897,
+      "distanceAU": 1.002135431513984
+    },
+    {
+      "utc": "2026-04-12T12:00:00.000Z",
+      "rightAscensionHours": 1.3928690335090623,
+      "declinationDegrees": 8.788895980692955,
+      "distanceAU": 1.0024246283338578
+    },
+    {
+      "utc": "2026-04-13T12:00:00.000Z",
+      "rightAscensionHours": 1.4543509884877346,
+      "declinationDegrees": 9.152207926547982,
+      "distanceAU": 1.0027124372972875
+    },
+    {
+      "utc": "2026-04-14T12:00:00.000Z",
+      "rightAscensionHours": 1.5159265819926266,
+      "declinationDegrees": 9.51299750814725,
+      "distanceAU": 1.0029985090305231
+    },
+    {
+      "utc": "2026-04-15T12:00:00.000Z",
+      "rightAscensionHours": 1.5775996784534732,
+      "declinationDegrees": 9.871166739832729,
+      "distanceAU": 1.0032825156333602
+    },
+    {
+      "utc": "2026-04-16T12:00:00.000Z",
+      "rightAscensionHours": 1.639373954709534,
+      "declinationDegrees": 10.226617925888762,
+      "distanceAU": 1.003564170428687
+    },
+    {
+      "utc": "2026-04-17T12:00:00.000Z",
+      "rightAscensionHours": 1.7012528581696473,
+      "declinationDegrees": 10.57925359269286,
+      "distanceAU": 1.0038432476031005
+    },
+    {
+      "utc": "2026-04-18T12:00:00.000Z",
+      "rightAscensionHours": 1.7632395767697484,
+      "declinationDegrees": 10.928976380553717,
+      "distanceAU": 1.0041195988763607
+    },
+    {
+      "utc": "2026-04-19T12:00:00.000Z",
+      "rightAscensionHours": 1.8253370338278032,
+      "declinationDegrees": 11.275688960854593,
+      "distanceAU": 1.0043931645183124
+    },
+    {
+      "utc": "2026-04-20T12:00:00.000Z",
+      "rightAscensionHours": 1.8875479159979727,
+      "declinationDegrees": 11.61929403906045,
+      "distanceAU": 1.0046639767025143
+    },
+    {
+      "utc": "2026-04-21T12:00:00.000Z",
+      "rightAscensionHours": 1.9498747355753643,
+      "declinationDegrees": 11.959694485517435,
+      "distanceAU": 1.0049321542365495
+    },
+    {
+      "utc": "2026-04-22T12:00:00.000Z",
+      "rightAscensionHours": 2.012319920798854,
+      "declinationDegrees": 12.296793607194877,
+      "distanceAU": 1.0051978889576119
+    },
+    {
+      "utc": "2026-04-23T12:00:00.000Z",
+      "rightAscensionHours": 2.074885921180488,
+      "declinationDegrees": 12.630495540551236,
+      "distanceAU": 1.005461425307888
+    },
+    {
+      "utc": "2026-04-24T12:00:00.000Z",
+      "rightAscensionHours": 2.1375753106514566,
+      "declinationDegrees": 12.960705715085686,
+      "distanceAU": 1.0057230355897084
+    },
+    {
+      "utc": "2026-04-25T12:00:00.000Z",
+      "rightAscensionHours": 2.200390870403969,
+      "declinationDegrees": 13.287331315221454,
+      "distanceAU": 1.0059829939715197
+    },
+    {
+      "utc": "2026-04-26T12:00:00.000Z",
+      "rightAscensionHours": 2.2633356359792356,
+      "declinationDegrees": 13.610281659614639,
+      "distanceAU": 1.0062415523746744
+    },
+    {
+      "utc": "2026-04-27T12:00:00.000Z",
+      "rightAscensionHours": 2.3264128989162005,
+      "declinationDegrees": 13.929468423902383,
+      "distanceAU": 1.006498920914882
+    },
+    {
+      "utc": "2026-04-28T12:00:00.000Z",
+      "rightAscensionHours": 2.389626161018867,
+      "declinationDegrees": 14.244805654494723,
+      "distanceAU": 1.0067552546924743
+    },
+    {
+      "utc": "2026-04-29T12:00:00.000Z",
+      "rightAscensionHours": 2.452979047487093,
+      "declinationDegrees": 14.556209553573899,
+      "distanceAU": 1.0070106475909975
+    },
+    {
+      "utc": "2026-04-30T12:00:00.000Z",
+      "rightAscensionHours": 2.5164751921488726,
+      "declinationDegrees": 14.86359805308523,
+      "distanceAU": 1.0072651325675457
+    },
+    {
+      "utc": "2026-05-01T12:00:00.000Z",
+      "rightAscensionHours": 2.5801181124449375,
+      "declinationDegrees": 15.166890231264658,
+      "distanceAU": 1.0075186869180173
+    },
+    {
+      "utc": "2026-05-02T12:00:00.000Z",
+      "rightAscensionHours": 2.6439110928023952,
+      "declinationDegrees": 15.466005652542318,
+      "distanceAU": 1.0077712403566867
+    },
+    {
+      "utc": "2026-05-03T12:00:00.000Z",
+      "rightAscensionHours": 2.707857092404217,
+      "declinationDegrees": 15.760863725188981,
+      "distanceAU": 1.0080226835711001
+    },
+    {
+      "utc": "2026-05-04T12:00:00.000Z",
+      "rightAscensionHours": 2.7719586877343985,
+      "declinationDegrees": 16.051383168408833,
+      "distanceAU": 1.0082728752184311
+    },
+    {
+      "utc": "2026-05-05T12:00:00.000Z",
+      "rightAscensionHours": 2.836218052825238,
+      "declinationDegrees": 16.3374816620359,
+      "distanceAU": 1.008521646041645
+    },
+    {
+      "utc": "2026-05-06T12:00:00.000Z",
+      "rightAscensionHours": 2.900636972418658,
+      "declinationDegrees": 16.619075720984657,
+      "distanceAU": 1.0087687997483519
+    },
+    {
+      "utc": "2026-05-07T12:00:00.000Z",
+      "rightAscensionHours": 2.9652168768978795,
+      "declinationDegrees": 16.896080798947047,
+      "distanceAU": 1.0090141113088764
+    },
+    {
+      "utc": "2026-05-08T12:00:00.000Z",
+      "rightAscensionHours": 3.0299588841336647,
+      "declinationDegrees": 17.16841158837469,
+      "distanceAU": 1.0092573241812504
+    },
+    {
+      "utc": "2026-05-09T12:00:00.000Z",
+      "rightAscensionHours": 3.0948638330895024,
+      "declinationDegrees": 17.435982453533917,
+      "distanceAU": 1.009498148480498
+    },
+    {
+      "utc": "2026-05-10T12:00:00.000Z",
+      "rightAscensionHours": 3.159932297143371,
+      "declinationDegrees": 17.698707915755545,
+      "distanceAU": 1.0097362621666386
+    },
+    {
+      "utc": "2026-05-11T12:00:00.000Z",
+      "rightAscensionHours": 3.2251645709295436,
+      "declinationDegrees": 17.956503108056552,
+      "distanceAU": 1.0099713169084048
+    },
+    {
+      "utc": "2026-05-12T12:00:00.000Z",
+      "rightAscensionHours": 3.290560631784803,
+      "declinationDegrees": 18.209284130031843,
+      "distanceAU": 1.0102029494604414
+    },
+    {
+      "utc": "2026-05-13T12:00:00.000Z",
+      "rightAscensionHours": 3.3561200840256755,
+      "declinationDegrees": 18.45696826037315,
+      "distanceAU": 1.0104307983238427
+    },
+    {
+      "utc": "2026-05-14T12:00:00.000Z",
+      "rightAscensionHours": 3.421842099702283,
+      "declinationDegrees": 18.699474018079478,
+      "distanceAU": 1.010654524348038
+    },
+    {
+      "utc": "2026-05-15T12:00:00.000Z",
+      "rightAscensionHours": 3.487725371978242,
+      "declinationDegrees": 18.936721097673097,
+      "distanceAU": 1.0108738329933553
+    },
+    {
+      "utc": "2026-05-16T12:00:00.000Z",
+      "rightAscensionHours": 3.553768096253661,
+      "declinationDegrees": 19.16863023162698,
+      "distanceAU": 1.0110884953959738
+    },
+    {
+      "utc": "2026-05-17T12:00:00.000Z",
+      "rightAscensionHours": 3.619967989721993,
+      "declinationDegrees": 19.395123049224097,
+      "distanceAU": 1.0112983652824419
+    },
+    {
+      "utc": "2026-05-18T12:00:00.000Z",
+      "rightAscensionHours": 3.6863223530830695,
+      "declinationDegrees": 19.616122002028657,
+      "distanceAU": 1.0115033892022744
+    },
+    {
+      "utc": "2026-05-19T12:00:00.000Z",
+      "rightAscensionHours": 3.752828170027337,
+      "declinationDegrees": 19.83155041189528,
+      "distanceAU": 1.0117036084206412
+    },
+    {
+      "utc": "2026-05-20T12:00:00.000Z",
+      "rightAscensionHours": 3.819482232491741,
+      "declinationDegrees": 20.04133267074845,
+      "distanceAU": 1.0118991519900546
+    },
+    {
+      "utc": "2026-05-21T12:00:00.000Z",
+      "rightAscensionHours": 3.8862812741656487,
+      "declinationDegrees": 20.245394587670223,
+      "distanceAU": 1.0120902217941623
+    },
+    {
+      "utc": "2026-05-22T12:00:00.000Z",
+      "rightAscensionHours": 3.953222092428847,
+      "declinationDegrees": 20.4436638448191,
+      "distanceAU": 1.0122770715034435
+    },
+    {
+      "utc": "2026-05-23T12:00:00.000Z",
+      "rightAscensionHours": 4.020301640352401,
+      "declinationDegrees": 20.63607049631249,
+      "distanceAU": 1.012459982199973
+    },
+    {
+      "utc": "2026-05-24T12:00:00.000Z",
+      "rightAscensionHours": 4.087517075342585,
+      "declinationDegrees": 20.82254742912371,
+      "distanceAU": 1.012639237776132
+    },
+    {
+      "utc": "2026-05-25T12:00:00.000Z",
+      "rightAscensionHours": 4.154865758484894,
+      "declinationDegrees": 21.003030705559397,
+      "distanceAU": 1.01281510303663
+    },
+    {
+      "utc": "2026-05-26T12:00:00.000Z",
+      "rightAscensionHours": 4.2223452071851035,
+      "declinationDegrees": 21.177459723328177,
+      "distanceAU": 1.0129878067781457
+    },
+    {
+      "utc": "2026-05-27T12:00:00.000Z",
+      "rightAscensionHours": 4.289953011614499,
+      "declinationDegrees": 21.345777158761056,
+      "distanceAU": 1.013157531117711
+    },
+    {
+      "utc": "2026-05-28T12:00:00.000Z",
+      "rightAscensionHours": 4.3576867311903085,
+      "declinationDegrees": 21.507928695990838,
+      "distanceAU": 1.0133244071837897
+    },
+    {
+      "utc": "2026-05-29T12:00:00.000Z",
+      "rightAscensionHours": 4.425543789756237,
+      "declinationDegrees": 21.66386258286496,
+      "distanceAU": 1.01348851619252
+    },
+    {
+      "utc": "2026-05-30T12:00:00.000Z",
+      "rightAscensionHours": 4.4935213868507216,
+      "declinationDegrees": 21.813529085858924,
+      "distanceAU": 1.0136498941086607
+    },
+    {
+      "utc": "2026-05-31T12:00:00.000Z",
+      "rightAscensionHours": 4.5616164377898745,
+      "declinationDegrees": 21.956879935206178,
+      "distanceAU": 1.0138085376845476
+    },
+    {
+      "utc": "2026-06-01T12:00:00.000Z",
+      "rightAscensionHours": 4.629825548273957,
+      "declinationDegrees": 22.093867854154315,
+      "distanceAU": 1.0139644097457423
+    },
+    {
+      "utc": "2026-06-02T12:00:00.000Z",
+      "rightAscensionHours": 4.6981450213728495,
+      "declinationDegrees": 22.224446252089784,
+      "distanceAU": 1.0141174421193888
+    },
+    {
+      "utc": "2026-06-03T12:00:00.000Z",
+      "rightAscensionHours": 4.766570887687015,
+      "declinationDegrees": 22.34856913272189,
+      "distanceAU": 1.0142675354622868
+    },
+    {
+      "utc": "2026-06-04T12:00:00.000Z",
+      "rightAscensionHours": 4.835098944738348,
+      "declinationDegrees": 22.466191230952585,
+      "distanceAU": 1.0144145562572813
+    },
+    {
+      "utc": "2026-06-05T12:00:00.000Z",
+      "rightAscensionHours": 4.903724790173129,
+      "declinationDegrees": 22.57726835240365,
+      "distanceAU": 1.014558332196251
+    },
+    {
+      "utc": "2026-06-06T12:00:00.000Z",
+      "rightAscensionHours": 4.972443835481077,
+      "declinationDegrees": 22.681757855275823,
+      "distanceAU": 1.0146986478557456
+    },
+    {
+      "utc": "2026-06-07T12:00:00.000Z",
+      "rightAscensionHours": 5.041251292159038,
+      "declinationDegrees": 22.779619191574632,
+      "distanceAU": 1.0148352428484377
+    },
+    {
+      "utc": "2026-06-08T12:00:00.000Z",
+      "rightAscensionHours": 5.1101421294658165,
+      "declinationDegrees": 22.870814417886216,
+      "distanceAU": 1.0149678144319827
+    },
+    {
+      "utc": "2026-06-09T12:00:00.000Z",
+      "rightAscensionHours": 5.179111010560125,
+      "declinationDegrees": 22.95530859586964,
+      "distanceAU": 1.015096025902683
+    },
+    {
+      "utc": "2026-06-10T12:00:00.000Z",
+      "rightAscensionHours": 5.2481522202386115,
+      "declinationDegrees": 23.033070027295626,
+      "distanceAU": 1.015219521110778
+    },
+    {
+      "utc": "2026-06-11T12:00:00.000Z",
+      "rightAscensionHours": 5.317259601268863,
+      "declinationDegrees": 23.104070302820976,
+      "distanceAU": 1.0153379442911643
+    },
+    {
+      "utc": "2026-06-12T12:00:00.000Z",
+      "rightAscensionHours": 5.386426516590442,
+      "declinationDegrees": 23.168284180972474,
+      "distanceAU": 1.0154509633252775
+    },
+    {
+      "utc": "2026-06-13T12:00:00.000Z",
+      "rightAscensionHours": 5.455645851247287,
+      "declinationDegrees": 23.225689346676894,
+      "distanceAU": 1.0155582937455359
+    },
+    {
+      "utc": "2026-06-14T12:00:00.000Z",
+      "rightAscensionHours": 5.5249100614801545,
+      "declinationDegrees": 23.276266120787774,
+      "distanceAU": 1.0156597204237054
+    },
+    {
+      "utc": "2026-06-15T12:00:00.000Z",
+      "rightAscensionHours": 5.594211270144555,
+      "declinationDegrees": 23.31999719914257,
+      "distanceAU": 1.0157551140297896
+    },
+    {
+      "utc": "2026-06-16T12:00:00.000Z",
+      "rightAscensionHours": 5.663541399207086,
+      "declinationDegrees": 23.35686749052683,
+      "distanceAU": 1.01584443999434
+    },
+    {
+      "utc": "2026-06-17T12:00:00.000Z",
+      "rightAscensionHours": 5.732892323171675,
+      "declinationDegrees": 23.386864099460787,
+      "distanceAU": 1.0159277587469164
+    },
+    {
+      "utc": "2026-06-18T12:00:00.000Z",
+      "rightAscensionHours": 5.802256023291317,
+      "declinationDegrees": 23.40997646674872,
+      "distanceAU": 1.0160052172557195
+    },
+    {
+      "utc": "2026-06-19T12:00:00.000Z",
+      "rightAscensionHours": 5.871624722159573,
+      "declinationDegrees": 23.42619664491357,
+      "distanceAU": 1.0160770331378175
+    },
+    {
+      "utc": "2026-06-20T12:00:00.000Z",
+      "rightAscensionHours": 5.940990981778815,
+      "declinationDegrees": 23.435519654200686,
+      "distanceAU": 1.0161434736267572
+    },
+    {
+      "utc": "2026-06-21T12:00:00.000Z",
+      "rightAscensionHours": 6.010347754808221,
+      "declinationDegrees": 23.437943844184943,
+      "distanceAU": 1.016204832298677
+    },
+    {
+      "utc": "2026-06-22T12:00:00.000Z",
+      "rightAscensionHours": 6.079688387055478,
+      "declinationDegrees": 23.433471180425123,
+      "distanceAU": 1.0162614065684616
+    },
+    {
+      "utc": "2026-06-23T12:00:00.000Z",
+      "rightAscensionHours": 6.149006577751464,
+      "declinationDegrees": 23.42210738641892,
+      "distanceAU": 1.0163134785674524
+    },
+    {
+      "utc": "2026-06-24T12:00:00.000Z",
+      "rightAscensionHours": 6.218296311039676,
+      "declinationDegrees": 23.403861896415883,
+      "distanceAU": 1.0163613011916168
+    },
+    {
+      "utc": "2026-06-25T12:00:00.000Z",
+      "rightAscensionHours": 6.287551776110474,
+      "declinationDegrees": 23.378747609671485,
+      "distanceAU": 1.0164050900291806
+    },
+    {
+      "utc": "2026-06-26T12:00:00.000Z",
+      "rightAscensionHours": 6.356767293751046,
+      "declinationDegrees": 23.34678047474133,
+      "distanceAU": 1.0164450207501927
+    },
+    {
+      "utc": "2026-06-27T12:00:00.000Z",
+      "rightAscensionHours": 6.425937263810308,
+      "declinationDegrees": 23.30797896603369,
+      "distanceAU": 1.016481230582721
+    },
+    {
+      "utc": "2026-06-28T12:00:00.000Z",
+      "rightAscensionHours": 6.495056141944847,
+      "declinationDegrees": 23.262363537461063,
+      "distanceAU": 1.0165138218906373
+    },
+    {
+      "utc": "2026-06-29T12:00:00.000Z",
+      "rightAscensionHours": 6.5641184463127455,
+      "declinationDegrees": 23.20995614516972,
+      "distanceAU": 1.0165428657149662
+    },
+    {
+      "utc": "2026-06-30T12:00:00.000Z",
+      "rightAscensionHours": 6.633118787828002,
+      "declinationDegrees": 23.15077992095687,
+      "distanceAU": 1.0165684034627527
+    },
+    {
+      "utc": "2026-07-01T12:00:00.000Z",
+      "rightAscensionHours": 6.702051910458715,
+      "declinationDegrees": 23.084859053649524,
+      "distanceAU": 1.0165904456475516
+    },
+    {
+      "utc": "2026-07-02T12:00:00.000Z",
+      "rightAscensionHours": 6.770912727618064,
+      "declinationDegrees": 23.012218897756586,
+      "distanceAU": 1.0166089675518937
+    },
+    {
+      "utc": "2026-07-03T12:00:00.000Z",
+      "rightAscensionHours": 6.839696339094277,
+      "declinationDegrees": 22.932886290346463,
+      "distanceAU": 1.0166239026880686
+    },
+    {
+      "utc": "2026-07-04T12:00:00.000Z",
+      "rightAscensionHours": 6.90839801862418,
+      "declinationDegrees": 22.846890019347306,
+      "distanceAU": 1.0166351357714771
+    },
+    {
+      "utc": "2026-07-05T12:00:00.000Z",
+      "rightAscensionHours": 6.977013168444961,
+      "declinationDegrees": 22.75426136048163,
+      "distanceAU": 1.016642497409108
+    },
+    {
+      "utc": "2026-07-06T12:00:00.000Z",
+      "rightAscensionHours": 7.045537245048825,
+      "declinationDegrees": 22.655034588866172,
+      "distanceAU": 1.0166457627342511
+    },
+    {
+      "utc": "2026-07-07T12:00:00.000Z",
+      "rightAscensionHours": 7.113965667632474,
+      "declinationDegrees": 22.549247377323926,
+      "distanceAU": 1.016644655765329
+    },
+    {
+      "utc": "2026-07-08T12:00:00.000Z",
+      "rightAscensionHours": 7.182293725865396,
+      "declinationDegrees": 22.436941015339297,
+      "distanceAU": 1.0166388604048313
+    },
+    {
+      "utc": "2026-07-09T12:00:00.000Z",
+      "rightAscensionHours": 7.250516505467745,
+      "declinationDegrees": 22.318160416026004,
+      "distanceAU": 1.0166280378779282
+    },
+    {
+      "utc": "2026-07-10T12:00:00.000Z",
+      "rightAscensionHours": 7.31862884824217,
+      "declinationDegrees": 22.1929539169706,
+      "distanceAU": 1.0166118492459169
+    },
+    {
+      "utc": "2026-07-11T12:00:00.000Z",
+      "rightAscensionHours": 7.386625357906705,
+      "declinationDegrees": 22.061372917047013,
+      "distanceAU": 1.01658998063681
+    },
+    {
+      "utc": "2026-07-12T12:00:00.000Z",
+      "rightAscensionHours": 7.454500455304639,
+      "declinationDegrees": 21.92347141850951,
+      "distanceAU": 1.016562168204972
+    },
+    {
+      "utc": "2026-07-13T12:00:00.000Z",
+      "rightAscensionHours": 7.52224847841507,
+      "declinationDegrees": 21.779305555643464,
+      "distanceAU": 1.0165282196890182
+    },
+    {
+      "utc": "2026-07-14T12:00:00.000Z",
+      "rightAscensionHours": 7.589863813361242,
+      "declinationDegrees": 21.62893319072102,
+      "distanceAU": 1.0164880298193433
+    },
+    {
+      "utc": "2026-07-15T12:00:00.000Z",
+      "rightAscensionHours": 7.65734103938837,
+      "declinationDegrees": 21.472413634682216,
+      "distanceAU": 1.016441587670556
+    },
+    {
+      "utc": "2026-07-16T12:00:00.000Z",
+      "rightAscensionHours": 7.7246750665204225,
+      "declinationDegrees": 21.309807524309317,
+      "distanceAU": 1.016388975216575
+    },
+    {
+      "utc": "2026-07-17T12:00:00.000Z",
+      "rightAscensionHours": 7.7918612476289635,
+      "declinationDegrees": 21.141176849822777,
+      "distanceAU": 1.016330357619187
+    },
+    {
+      "utc": "2026-07-18T12:00:00.000Z",
+      "rightAscensionHours": 7.858895451411724,
+      "declinationDegrees": 20.966585094309714,
+      "distanceAU": 1.016265966941479
+    },
+    {
+      "utc": "2026-07-19T12:00:00.000Z",
+      "rightAscensionHours": 7.925774090369734,
+      "declinationDegrees": 20.786097421598296,
+      "distanceAU": 1.0161960818221585
+    },
+    {
+      "utc": "2026-07-20T12:00:00.000Z",
+      "rightAscensionHours": 7.992494106241818,
+      "declinationDegrees": 20.59978083807636,
+      "distanceAU": 1.0161210060327943
+    },
+    {
+      "utc": "2026-07-21T12:00:00.000Z",
+      "rightAscensionHours": 8.05905292283648,
+      "declinationDegrees": 20.407704258763417,
+      "distanceAU": 1.0160410487111566
+    },
+    {
+      "utc": "2026-07-22T12:00:00.000Z",
+      "rightAscensionHours": 8.125448381361881,
+      "declinationDegrees": 20.2099384276272,
+      "distanceAU": 1.015956508460224
+    },
+    {
+      "utc": "2026-07-23T12:00:00.000Z",
+      "rightAscensionHours": 8.191678675139281,
+      "declinationDegrees": 20.00655567300444,
+      "distanceAU": 1.0158676625523824
+    },
+    {
+      "utc": "2026-07-24T12:00:00.000Z",
+      "rightAscensionHours": 8.257742298761999,
+      "declinationDegrees": 19.797629514806623,
+      "distanceAU": 1.015774761372957
+    },
+    {
+      "utc": "2026-07-25T12:00:00.000Z",
+      "rightAscensionHours": 8.323638021777116,
+      "declinationDegrees": 19.583234173911528,
+      "distanceAU": 1.0156780271937336
+    },
+    {
+      "utc": "2026-07-26T12:00:00.000Z",
+      "rightAscensionHours": 8.38936488993711,
+      "declinationDegrees": 19.3634440590276,
+      "distanceAU": 1.0155776555869174
+    },
+    {
+      "utc": "2026-07-27T12:00:00.000Z",
+      "rightAscensionHours": 8.454922249563465,
+      "declinationDegrees": 19.138333317196448,
+      "distanceAU": 1.0154738174199687
+    },
+    {
+      "utc": "2026-07-28T12:00:00.000Z",
+      "rightAscensionHours": 8.520309784183064,
+      "declinationDegrees": 18.907975528664952,
+      "distanceAU": 1.0153666594766182
+    },
+    {
+      "utc": "2026-07-29T12:00:00.000Z",
+      "rightAscensionHours": 8.585527548751218,
+      "declinationDegrees": 18.672443605765793,
+      "distanceAU": 1.0152563022992063
+    },
+    {
+      "utc": "2026-07-30T12:00:00.000Z",
+      "rightAscensionHours": 8.650575986303696,
+      "declinationDegrees": 18.431809922458307,
+      "distanceAU": 1.0151428347241482
+    },
+    {
+      "utc": "2026-07-31T12:00:00.000Z",
+      "rightAscensionHours": 8.715455914892564,
+      "declinationDegrees": 18.186146662432026,
+      "distanceAU": 1.0150263056025133
+    },
+    {
+      "utc": "2026-08-01T12:00:00.000Z",
+      "rightAscensionHours": 8.78016847858937,
+      "declinationDegrees": 17.935526336204507,
+      "distanceAU": 1.01490671414885
+    },
+    {
+      "utc": "2026-08-02T12:00:00.000Z",
+      "rightAscensionHours": 8.844715063916421,
+      "declinationDegrees": 17.680022388560353,
+      "distanceAU": 1.0147840010427578
+    },
+    {
+      "utc": "2026-08-03T12:00:00.000Z",
+      "rightAscensionHours": 8.909097190727904,
+      "declinationDegrees": 17.419709802304535,
+      "distanceAU": 1.0146580426702094
+    },
+    {
+      "utc": "2026-08-04T12:00:00.000Z",
+      "rightAscensionHours": 8.97331639269267,
+      "declinationDegrees": 17.154665605445686,
+      "distanceAU": 1.014528650666521
+    },
+    {
+      "utc": "2026-08-05T12:00:00.000Z",
+      "rightAscensionHours": 9.037374105808338,
+      "declinationDegrees": 16.884969206320942,
+      "distanceAU": 1.0143955782361933
+    },
+    {
+      "utc": "2026-08-06T12:00:00.000Z",
+      "rightAscensionHours": 9.101271583082374,
+      "declinationDegrees": 16.610702511437673,
+      "distanceAU": 1.014258533693149
+    },
+    {
+      "utc": "2026-08-07T12:00:00.000Z",
+      "rightAscensionHours": 9.165009849648923,
+      "declinationDegrees": 16.331949818204336,
+      "distanceAU": 1.01411720047336
+    },
+    {
+      "utc": "2026-08-08T12:00:00.000Z",
+      "rightAscensionHours": 9.228589705886971,
+      "declinationDegrees": 16.048797512235264,
+      "distanceAU": 1.0139712617397352
+    },
+    {
+      "utc": "2026-08-09T12:00:00.000Z",
+      "rightAscensionHours": 9.292011777873181,
+      "declinationDegrees": 15.76133362963996,
+      "distanceAU": 1.0138204268382625
+    },
+    {
+      "utc": "2026-08-10T12:00:00.000Z",
+      "rightAscensionHours": 9.355276606405948,
+      "declinationDegrees": 15.469647362949164,
+      "distanceAU": 1.0136644564383435
+    },
+    {
+      "utc": "2026-08-11T12:00:00.000Z",
+      "rightAscensionHours": 9.418384759426262,
+      "declinationDegrees": 15.17382859222769,
+      "distanceAU": 1.013503183284011
+    },
+    {
+      "utc": "2026-08-12T12:00:00.000Z",
+      "rightAscensionHours": 9.48133694924405,
+      "declinationDegrees": 14.87396751014875,
+      "distanceAU": 1.0133365260853961
+    },
+    {
+      "utc": "2026-08-13T12:00:00.000Z",
+      "rightAscensionHours": 9.544134136156613,
+      "declinationDegrees": 14.5701543844475,
+      "distanceAU": 1.013164495086961
+    },
+    {
+      "utc": "2026-08-14T12:00:00.000Z",
+      "rightAscensionHours": 9.60677760374971,
+      "declinationDegrees": 14.262479468424626,
+      "distanceAU": 1.0129871890819422
+    },
+    {
+      "utc": "2026-08-15T12:00:00.000Z",
+      "rightAscensionHours": 9.669268997558191,
+      "declinationDegrees": 13.951033036847287,
+      "distanceAU": 1.0128047848816732
+    },
+    {
+      "utc": "2026-08-16T12:00:00.000Z",
+      "rightAscensionHours": 9.731610326517453,
+      "declinationDegrees": 13.635905497213164,
+      "distanceAU": 1.0126175212750286
+    },
+    {
+      "utc": "2026-08-17T12:00:00.000Z",
+      "rightAscensionHours": 9.793803934098985,
+      "declinationDegrees": 13.317187510573412,
+      "distanceAU": 1.0124256801497757
+    },
+    {
+      "utc": "2026-08-18T12:00:00.000Z",
+      "rightAscensionHours": 9.855852451691115,
+      "declinationDegrees": 12.994970054909823,
+      "distanceAU": 1.0122295675912711
+    },
+    {
+      "utc": "2026-08-19T12:00:00.000Z",
+      "rightAscensionHours": 9.917758749496246,
+      "declinationDegrees": 12.669344377740554,
+      "distanceAU": 1.0120294974154251
+    },
+    {
+      "utc": "2026-08-20T12:00:00.000Z",
+      "rightAscensionHours": 9.97952589945885,
+      "declinationDegrees": 12.340401810429796,
+      "distanceAU": 1.0118257788169398
+    },
+    {
+      "utc": "2026-08-21T12:00:00.000Z",
+      "rightAscensionHours": 10.041157160749801,
+      "declinationDegrees": 12.008233449359873,
+      "distanceAU": 1.0116187087831434
+    },
+    {
+      "utc": "2026-08-22T12:00:00.000Z",
+      "rightAscensionHours": 10.102655991996361,
+      "declinationDegrees": 11.672929742223593,
+      "distanceAU": 1.011408568846113
+    },
+    {
+      "utc": "2026-08-23T12:00:00.000Z",
+      "rightAscensionHours": 10.16402608718172,
+      "declinationDegrees": 11.334580044389885,
+      "distanceAU": 1.0111956248349225
+    },
+    {
+      "utc": "2026-08-24T12:00:00.000Z",
+      "rightAscensionHours": 10.225271425516725,
+      "declinationDegrees": 10.99327222516457,
+      "distanceAU": 1.010980127723454
+    },
+    {
+      "utc": "2026-08-25T12:00:00.000Z",
+      "rightAscensionHours": 10.286396321073516,
+      "declinationDegrees": 10.649092403488062,
+      "distanceAU": 1.0107623135551993
+    },
+    {
+      "utc": "2026-08-26T12:00:00.000Z",
+      "rightAscensionHours": 10.347405456570208,
+      "declinationDegrees": 10.302124876841491,
+      "distanceAU": 1.0105424007823314
+    },
+    {
+      "utc": "2026-08-27T12:00:00.000Z",
+      "rightAscensionHours": 10.408303887753437,
+      "declinationDegrees": 9.952452278526323,
+      "distanceAU": 1.0103205841058356
+    },
+    {
+      "utc": "2026-08-28T12:00:00.000Z",
+      "rightAscensionHours": 10.469097009966159,
+      "declinationDegrees": 9.600155962121544,
+      "distanceAU": 1.0100970248917218
+    },
+    {
+      "utc": "2026-08-29T12:00:00.000Z",
+      "rightAscensionHours": 10.529790485672624,
+      "declinationDegrees": 9.245316574480714,
+      "distanceAU": 1.0098718392619492
+    },
+    {
+      "utc": "2026-08-30T12:00:00.000Z",
+      "rightAscensionHours": 10.590390139469047,
+      "declinationDegrees": 8.888014747007622,
+      "distanceAU": 1.0096450858052706
+    },
+    {
+      "utc": "2026-08-31T12:00:00.000Z",
+      "rightAscensionHours": 10.65090183384158,
+      "declinationDegrees": 8.528331814948633,
+      "distanceAU": 1.0094167553425575
+    },
+    {
+      "utc": "2026-09-01T12:00:00.000Z",
+      "rightAscensionHours": 10.711331343221694,
+      "declinationDegrees": 8.16635046986538,
+      "distanceAU": 1.0091867652010507
+    },
+    {
+      "utc": "2026-09-02T12:00:00.000Z",
+      "rightAscensionHours": 10.771684244854923,
+      "declinationDegrees": 7.802155261957821,
+      "distanceAU": 1.0089549599797738
+    },
+    {
+      "utc": "2026-09-03T12:00:00.000Z",
+      "rightAscensionHours": 10.831965842393425,
+      "declinationDegrees": 7.4358328944494705,
+      "distanceAU": 1.008721119896744
+    },
+    {
+      "utc": "2026-09-04T12:00:00.000Z",
+      "rightAscensionHours": 10.892181132467385,
+      "declinationDegrees": 7.067472286959762,
+      "distanceAU": 1.0084849766523167
+    },
+    {
+      "utc": "2026-09-05T12:00:00.000Z",
+      "rightAscensionHours": 10.952334816912666,
+      "declinationDegrees": 6.6971644222499185,
+      "distanceAU": 1.0082462355297
+    },
+    {
+      "utc": "2026-09-06T12:00:00.000Z",
+      "rightAscensionHours": 11.012431355358922,
+      "declinationDegrees": 6.325002024036917,
+      "distanceAU": 1.0080046014054125
+    },
+    {
+      "utc": "2026-09-07T12:00:00.000Z",
+      "rightAscensionHours": 11.072475046100319,
+      "declinationDegrees": 5.951079136786089,
+      "distanceAU": 1.0077598056529753
+    },
+    {
+      "utc": "2026-09-08T12:00:00.000Z",
+      "rightAscensionHours": 11.13247011894048,
+      "declinationDegrees": 5.575490687414362,
+      "distanceAU": 1.007511630721781
+    },
+    {
+      "utc": "2026-09-09T12:00:00.000Z",
+      "rightAscensionHours": 11.19242082280781,
+      "declinationDegrees": 5.198332102575571,
+      "distanceAU": 1.0072599294997469
+    },
+    {
+      "utc": "2026-09-10T12:00:00.000Z",
+      "rightAscensionHours": 11.2523314935132,
+      "declinationDegrees": 4.81969903522078,
+      "distanceAU": 1.0070046373659263
+    },
+    {
+      "utc": "2026-09-11T12:00:00.000Z",
+      "rightAscensionHours": 11.312206592448769,
+      "declinationDegrees": 4.4396872248324675,
+      "distanceAU": 1.0067457759643643
+    },
+    {
+      "utc": "2026-09-12T12:00:00.000Z",
+      "rightAscensionHours": 11.372050714113556,
+      "declinationDegrees": 4.058392483164375,
+      "distanceAU": 1.0064834489803738
+    },
+    {
+      "utc": "2026-09-13T12:00:00.000Z",
+      "rightAscensionHours": 11.431868567571126,
+      "declinationDegrees": 3.6759107680995067,
+      "distanceAU": 1.006217831351227
+    },
+    {
+      "utc": "2026-09-14T12:00:00.000Z",
+      "rightAscensionHours": 11.491664942770392,
+      "declinationDegrees": 3.2923382881512047,
+      "distanceAU": 1.0059491541920496
+    },
+    {
+      "utc": "2026-09-15T12:00:00.000Z",
+      "rightAscensionHours": 11.551444675836434,
+      "declinationDegrees": 2.907771573356663,
+      "distanceAU": 1.0056776881207288
+    },
+    {
+      "utc": "2026-09-16T12:00:00.000Z",
+      "rightAscensionHours": 11.61121262732106,
+      "declinationDegrees": 2.5223074560760628,
+      "distanceAU": 1.005403727564463
+    },
+    {
+      "utc": "2026-09-17T12:00:00.000Z",
+      "rightAscensionHours": 11.670973684040813,
+      "declinationDegrees": 2.1360429259202642,
+      "distanceAU": 1.005127578063132
+    },
+    {
+      "utc": "2026-09-18T12:00:00.000Z",
+      "rightAscensionHours": 11.730732789223858,
+      "declinationDegrees": 1.7490748527657105,
+      "distanceAU": 1.004849547676462
+    },
+    {
+      "utc": "2026-09-19T12:00:00.000Z",
+      "rightAscensionHours": 11.790494998570008,
+      "declinationDegrees": 1.3614996042508685,
+      "distanceAU": 1.004569942541776
+    },
+    {
+      "utc": "2026-09-20T12:00:00.000Z",
+      "rightAscensionHours": 11.85026555299216,
+      "declinationDegrees": 0.973412613046303,
+      "distanceAU": 1.0042890656320558
+    },
+    {
+      "utc": "2026-09-21T12:00:00.000Z",
+      "rightAscensionHours": 11.910049953779955,
+      "declinationDegrees": 0.5849079683661464,
+      "distanceAU": 1.004007217029937
+    },
+    {
+      "utc": "2026-09-22T12:00:00.000Z",
+      "rightAscensionHours": 11.969854023811951,
+      "declinationDegrees": 0.1960781116093559,
+      "distanceAU": 1.0037246937077449
+    },
+    {
+      "utc": "2026-09-23T12:00:00.000Z",
+      "rightAscensionHours": 12.029683939754731,
+      "declinationDegrees": -0.19298629384110766,
+      "distanceAU": 1.0034417869508347
+    },
+    {
+      "utc": "2026-09-24T12:00:00.000Z",
+      "rightAscensionHours": 12.089546224726547,
+      "declinationDegrees": -0.5821962723914723,
+      "distanceAU": 1.0031587761504137
+    },
+    {
+      "utc": "2026-09-25T12:00:00.000Z",
+      "rightAscensionHours": 12.14944769777706,
+      "declinationDegrees": -0.9714642128094361,
+      "distanceAU": 1.002875918604152
+    },
+    {
+      "utc": "2026-09-26T12:00:00.000Z",
+      "rightAscensionHours": 12.20939538437537,
+      "declinationDegrees": -1.3607033361033185,
+      "distanceAU": 1.0025934360136581
+    },
+    {
+      "utc": "2026-09-27T12:00:00.000Z",
+      "rightAscensionHours": 12.26939639930376,
+      "declinationDegrees": -1.7498270133895615,
+      "distanceAU": 1.0023114993436306
+    },
+    {
+      "utc": "2026-09-28T12:00:00.000Z",
+      "rightAscensionHours": 12.32945781847571,
+      "declinationDegrees": -2.1387480173262947,
+      "distanceAU": 1.0020302144059288
+    },
+    {
+      "utc": "2026-09-29T12:00:00.000Z",
+      "rightAscensionHours": 12.389586558166592,
+      "declinationDegrees": -2.52737780155653,
+      "distanceAU": 1.0017496108020432
+    },
+    {
+      "utc": "2026-09-30T12:00:00.000Z",
+      "rightAscensionHours": 12.44978927858847,
+      "declinationDegrees": -2.915625897591398,
+      "distanceAU": 1.001469636629425
+    },
+    {
+      "utc": "2026-10-01T12:00:00.000Z",
+      "rightAscensionHours": 12.510072323965671,
+      "declinationDegrees": -3.3033994985171597,
+      "distanceAU": 1.0011901606556044
+    },
+    {
+      "utc": "2026-10-02T12:00:00.000Z",
+      "rightAscensionHours": 12.5704417042677,
+      "declinationDegrees": -3.6906032676244442,
+      "distanceAU": 1.0009109826052085
+    },
+    {
+      "utc": "2026-10-03T12:00:00.000Z",
+      "rightAscensionHours": 12.630903115960797,
+      "declinationDegrees": -4.077139373293427,
+      "distanceAU": 1.0006318509745482
+    },
+    {
+      "utc": "2026-10-04T12:00:00.000Z",
+      "rightAscensionHours": 12.691461992152393,
+      "declinationDegrees": -4.462907716069674,
+      "distanceAU": 1.000352486607254
+    },
+    {
+      "utc": "2026-10-05T12:00:00.000Z",
+      "rightAscensionHours": 12.752123567711537,
+      "declinationDegrees": -4.8478062861004805,
+      "distanceAU": 1.0000726093466794
+    },
+    {
+      "utc": "2026-10-06T12:00:00.000Z",
+      "rightAscensionHours": 12.812892943328219,
+      "declinationDegrees": -5.231731574070431,
+      "distanceAU": 0.9997919645936914
+    },
+    {
+      "utc": "2026-10-07T12:00:00.000Z",
+      "rightAscensionHours": 12.873775134274407,
+      "declinationDegrees": -5.614578958732936,
+      "distanceAU": 0.9995103466306209
+    },
+    {
+      "utc": "2026-10-08T12:00:00.000Z",
+      "rightAscensionHours": 12.934775094411862,
+      "declinationDegrees": -5.996243008651875,
+      "distanceAU": 0.9992276161168572
+    },
+    {
+      "utc": "2026-10-09T12:00:00.000Z",
+      "rightAscensionHours": 12.995897712701572,
+      "declinationDegrees": -6.376617661685347,
+      "distanceAU": 0.9989437101180275
+    },
+    {
+      "utc": "2026-10-10T12:00:00.000Z",
+      "rightAscensionHours": 13.057147786611797,
+      "declinationDegrees": -6.755596277492911,
+      "distanceAU": 0.9986586442232535
+    },
+    {
+      "utc": "2026-10-11T12:00:00.000Z",
+      "rightAscensionHours": 13.118529982854273,
+      "declinationDegrees": -7.133071589548096,
+      "distanceAU": 0.9983725075162553
+    },
+    {
+      "utc": "2026-10-12T12:00:00.000Z",
+      "rightAscensionHours": 13.180048799482998,
+      "declinationDegrees": -7.508935607484463,
+      "distanceAU": 0.9980854521781244
+    },
+    {
+      "utc": "2026-10-13T12:00:00.000Z",
+      "rightAscensionHours": 13.241708543752901,
+      "declinationDegrees": -7.883079533108408,
+      "distanceAU": 0.9977976801349451
+    },
+    {
+      "utc": "2026-10-14T12:00:00.000Z",
+      "rightAscensionHours": 13.303513337161998,
+      "declinationDegrees": -8.255393751647873,
+      "distanceAU": 0.9975094293182609
+    },
+    {
+      "utc": "2026-10-15T12:00:00.000Z",
+      "rightAscensionHours": 13.365467153380393,
+      "declinationDegrees": -8.625767944016413,
+      "distanceAU": 0.9972209617695533
+    },
+    {
+      "utc": "2026-10-16T12:00:00.000Z",
+      "rightAscensionHours": 13.427573887493342,
+      "declinationDegrees": -8.994091339171074,
+      "distanceAU": 0.9969325550743718
+    },
+    {
+      "utc": "2026-10-17T12:00:00.000Z",
+      "rightAscensionHours": 13.489837447705051,
+      "declinationDegrees": -9.36025309344644,
+      "distanceAU": 0.9966444976176567
+    },
+    {
+      "utc": "2026-10-18T12:00:00.000Z",
+      "rightAscensionHours": 13.552261854893056,
+      "declinationDegrees": -9.724142752379263,
+      "distanceAU": 0.996357087115372
+    },
+    {
+      "utc": "2026-10-19T12:00:00.000Z",
+      "rightAscensionHours": 13.614851332438086,
+      "declinationDegrees": -10.085650726498226,
+      "distanceAU": 0.9960706310105941
+    },
+    {
+      "utc": "2026-10-20T12:00:00.000Z",
+      "rightAscensionHours": 13.677610369263313,
+      "declinationDegrees": -10.444668700902389,
+      "distanceAU": 0.9957854468013067
+    },
+    {
+      "utc": "2026-10-21T12:00:00.000Z",
+      "rightAscensionHours": 13.740543742941753,
+      "declinationDegrees": -10.801089901776384,
+      "distanceAU": 0.995501860299219
+    },
+    {
+      "utc": "2026-10-22T12:00:00.000Z",
+      "rightAscensionHours": 13.803656496364589,
+      "declinationDegrees": -11.154809161360314,
+      "distanceAU": 0.9952202002205432
+    },
+    {
+      "utc": "2026-10-23T12:00:00.000Z",
+      "rightAscensionHours": 13.866953869455882,
+      "declinationDegrees": -11.50572275301387,
+      "distanceAU": 0.9949407883037713
+    },
+    {
+      "utc": "2026-10-24T12:00:00.000Z",
+      "rightAscensionHours": 13.930441195221722,
+      "declinationDegrees": -11.853728004802429,
+      "distanceAU": 0.994663925179953
+    },
+    {
+      "utc": "2026-10-25T12:00:00.000Z",
+      "rightAscensionHours": 13.994123775430017,
+      "declinationDegrees": -12.198722736540496,
+      "distanceAU": 0.9943898732829571
+    },
+    {
+      "utc": "2026-10-26T12:00:00.000Z",
+      "rightAscensionHours": 14.05800675427479,
+      "declinationDegrees": -12.540604594947373,
+      "distanceAU": 0.994118838966245
+    },
+    {
+      "utc": "2026-10-27T12:00:00.000Z",
+      "rightAscensionHours": 14.122095007865209,
+      "declinationDegrees": -12.879270378811242,
+      "distanceAU": 0.993850956506754
+    },
+    {
+      "utc": "2026-10-28T12:00:00.000Z",
+      "rightAscensionHours": 14.186393063458082,
+      "declinationDegrees": -13.214615447708125,
+      "distanceAU": 0.99358627671086
+    },
+    {
+      "utc": "2026-10-29T12:00:00.000Z",
+      "rightAscensionHours": 14.250905055861246,
+      "declinationDegrees": -13.546533293539703,
+      "distanceAU": 0.9933247623677195
+    },
+    {
+      "utc": "2026-10-30T12:00:00.000Z",
+      "rightAscensionHours": 14.315634720718231,
+      "declinationDegrees": -13.874915326466356,
+      "distanceAU": 0.9930662918929638
+    },
+    {
+      "utc": "2026-10-31T12:00:00.000Z",
+      "rightAscensionHours": 14.380585417096421,
+      "declinationDegrees": -14.19965089109811,
+      "distanceAU": 0.9928106713248377
+    },
+    {
+      "utc": "2026-11-01T12:00:00.000Z",
+      "rightAscensionHours": 14.44576016638529,
+      "declinationDegrees": -14.520627491331567,
+      "distanceAU": 0.9925576535840211
+    },
+    {
+      "utc": "2026-11-02T12:00:00.000Z",
+      "rightAscensionHours": 14.511161692137788,
+      "declinationDegrees": -14.837731170206881,
+      "distanceAU": 0.9923069628110109
+    },
+    {
+      "utc": "2026-11-03T12:00:00.000Z",
+      "rightAscensionHours": 14.576792446559207,
+      "declinationDegrees": -15.150846970099465,
+      "distanceAU": 0.9920583208479303
+    },
+    {
+      "utc": "2026-11-04T12:00:00.000Z",
+      "rightAscensionHours": 14.642654613632516,
+      "declinationDegrees": -15.459859392322455,
+      "distanceAU": 0.9918114726676297
+    },
+    {
+      "utc": "2026-11-05T12:00:00.000Z",
+      "rightAscensionHours": 14.708750085391241,
+      "declinationDegrees": -15.764652784465737,
+      "distanceAU": 0.9915662078160129
+    },
+    {
+      "utc": "2026-11-06T12:00:00.000Z",
+      "rightAscensionHours": 14.77508041519135,
+      "declinationDegrees": -16.065111606410163,
+      "distanceAU": 0.9913223756705826
+    },
+    {
+      "utc": "2026-11-07T12:00:00.000Z",
+      "rightAscensionHours": 14.84164675839396,
+      "declinationDegrees": -16.361120557232645,
+      "distanceAU": 0.9910798933895016
+    },
+    {
+      "utc": "2026-11-08T12:00:00.000Z",
+      "rightAscensionHours": 14.908449815185005,
+      "declinationDegrees": -16.65256457871585,
+      "distanceAU": 0.9908387466313419
+    },
+    {
+      "utc": "2026-11-09T12:00:00.000Z",
+      "rightAscensionHours": 14.975489791368725,
+      "declinationDegrees": -16.939328780261718,
+      "distanceAU": 0.9905989842441021
+    },
+    {
+      "utc": "2026-11-10T12:00:00.000Z",
+      "rightAscensionHours": 15.042766390555407,
+      "declinationDegrees": -17.221298348788153,
+      "distanceAU": 0.9903607089512534
+    },
+    {
+      "utc": "2026-11-11T12:00:00.000Z",
+      "rightAscensionHours": 15.110278845659588,
+      "declinationDegrees": -17.498358511926593,
+      "distanceAU": 0.9901240664584648
+    },
+    {
+      "utc": "2026-11-12T12:00:00.000Z",
+      "rightAscensionHours": 15.17802599013271,
+      "declinationDegrees": -17.77039461259701,
+      "distanceAU": 0.9898892353082782
+    },
+    {
+      "utc": "2026-11-13T12:00:00.000Z",
+      "rightAscensionHours": 15.246006361378415,
+      "declinationDegrees": -18.037292329752095,
+      "distanceAU": 0.9896564192576376
+    },
+    {
+      "utc": "2026-11-14T12:00:00.000Z",
+      "rightAscensionHours": 15.314218322009177,
+      "declinationDegrees": -18.29893804847363,
+      "distanceAU": 0.9894258430688532
+    },
+    {
+      "utc": "2026-11-15T12:00:00.000Z",
+      "rightAscensionHours": 15.382660180388973,
+      "declinationDegrees": -18.555219348865027,
+      "distanceAU": 0.9891977515753873
+    },
+    {
+      "utc": "2026-11-16T12:00:00.000Z",
+      "rightAscensionHours": 15.451330291197852,
+      "declinationDegrees": -18.806025554222,
+      "distanceAU": 0.9889724109234977
+    },
+    {
+      "utc": "2026-11-17T12:00:00.000Z",
+      "rightAscensionHours": 15.520227119726572,
+      "declinationDegrees": -19.05124826066021,
+      "distanceAU": 0.9887501101977649
+    },
+    {
+      "utc": "2026-11-18T12:00:00.000Z",
+      "rightAscensionHours": 15.589349259712167,
+      "declinationDegrees": -19.290781766705553,
+      "distanceAU": 0.9885311613578697
+    },
+    {
+      "utc": "2026-11-19T12:00:00.000Z",
+      "rightAscensionHours": 15.658695402569395,
+      "declinationDegrees": -19.52452333347648,
+      "distanceAU": 0.9883158956085208
+    },
+    {
+      "utc": "2026-11-20T12:00:00.000Z",
+      "rightAscensionHours": 15.728264264253063,
+      "declinationDegrees": -19.75237323205226,
+      "distanceAU": 0.9881046549627213
+    },
+    {
+      "utc": "2026-11-21T12:00:00.000Z",
+      "rightAscensionHours": 15.798054483064364,
+      "declinationDegrees": -19.974234569879457,
+      "distanceAU": 0.9878977787205155
+    },
+    {
+      "utc": "2026-11-22T12:00:00.000Z",
+      "rightAscensionHours": 15.86806450607336,
+      "declinationDegrees": -20.19001292604516,
+      "distanceAU": 0.9876955856850882
+    },
+    {
+      "utc": "2026-11-23T12:00:00.000Z",
+      "rightAscensionHours": 15.93829248267915,
+      "declinationDegrees": -20.399615858979104,
+      "distanceAU": 0.9874983539595504
+    },
+    {
+      "utc": "2026-11-24T12:00:00.000Z",
+      "rightAscensionHours": 16.00873618101831,
+      "declinationDegrees": -20.602952373122296,
+      "distanceAU": 0.9873063009064371
+    },
+    {
+      "utc": "2026-11-25T12:00:00.000Z",
+      "rightAscensionHours": 16.07939293714902,
+      "declinationDegrees": -20.799932439065742,
+      "distanceAU": 0.987119566154125
+    },
+    {
+      "utc": "2026-11-26T12:00:00.000Z",
+      "rightAscensionHours": 16.15025963939661,
+      "declinationDegrees": -20.990466652907497,
+      "distanceAU": 0.9869382003273568
+    },
+    {
+      "utc": "2026-11-27T12:00:00.000Z",
+      "rightAscensionHours": 16.22133274257308,
+      "declinationDegrees": -21.17446609671812,
+      "distanceAU": 0.9867621614855548
+    },
+    {
+      "utc": "2026-11-28T12:00:00.000Z",
+      "rightAscensionHours": 16.292608300587954,
+      "declinationDegrees": -21.351842427402907,
+      "distanceAU": 0.9865913201871613
+    },
+    {
+      "utc": "2026-11-29T12:00:00.000Z",
+      "rightAscensionHours": 16.36408200253702,
+      "declinationDegrees": -21.52250818228241,
+      "distanceAU": 0.9864254728462735
+    },
+    {
+      "utc": "2026-11-30T12:00:00.000Z",
+      "rightAscensionHours": 16.435749197418794,
+      "declinationDegrees": -21.68637725364801,
+      "distanceAU": 0.9862643618308758
+    },
+    {
+      "utc": "2026-12-01T12:00:00.000Z",
+      "rightAscensionHours": 16.507604896128054,
+      "declinationDegrees": -21.84336545795275,
+      "distanceAU": 0.9861076997861495
+    },
+    {
+      "utc": "2026-12-02T12:00:00.000Z",
+      "rightAscensionHours": 16.57964374555784,
+      "declinationDegrees": -21.99339111299634,
+      "distanceAU": 0.9859551951218364
+    },
+    {
+      "utc": "2026-12-03T12:00:00.000Z",
+      "rightAscensionHours": 16.651859977188554,
+      "declinationDegrees": -22.136375540550983,
+      "distanceAU": 0.9858065755717786
+    },
+    {
+      "utc": "2026-12-04T12:00:00.000Z",
+      "rightAscensionHours": 16.724247339783552,
+      "declinationDegrees": -22.272243431177113,
+      "distanceAU": 0.9856616072138453
+    },
+    {
+      "utc": "2026-12-05T12:00:00.000Z",
+      "rightAscensionHours": 16.79679903120998,
+      "declinationDegrees": -22.400923038615606,
+      "distanceAU": 0.9855201072327949
+    },
+    {
+      "utc": "2026-12-06T12:00:00.000Z",
+      "rightAscensionHours": 16.86950764671385,
+      "declinationDegrees": -22.522346206901332,
+      "distanceAU": 0.9853819498450387
+    },
+    {
+      "utc": "2026-12-07T12:00:00.000Z",
+      "rightAscensionHours": 16.94236515965545,
+      "declinationDegrees": -22.636448267225212,
+      "distanceAU": 0.9852470659682164
+    },
+    {
+      "utc": "2026-12-08T12:00:00.000Z",
+      "rightAscensionHours": 17.015362945913786,
+      "declinationDegrees": -22.743167866903207,
+      "distanceAU": 0.9851154381939907
+    },
+    {
+      "utc": "2026-12-09T12:00:00.000Z",
+      "rightAscensionHours": 17.088491855816823,
+      "declinationDegrees": -22.842446804711184,
+      "distanceAU": 0.9849870932328164
+    },
+    {
+      "utc": "2026-12-10T12:00:00.000Z",
+      "rightAscensionHours": 17.161742328986172,
+      "declinationDegrees": -22.93422994305828,
+      "distanceAU": 0.9848620941409859
+    },
+    {
+      "utc": "2026-12-11T12:00:00.000Z",
+      "rightAscensionHours": 17.235104539592676,
+      "declinationDegrees": -23.018465248858334,
+      "distanceAU": 0.9847405343011989
+    },
+    {
+      "utc": "2026-12-12T12:00:00.000Z",
+      "rightAscensionHours": 17.308568553788593,
+      "declinationDegrees": -23.095103985300938,
+      "distanceAU": 0.9846225343902131
+    },
+    {
+      "utc": "2026-12-13T12:00:00.000Z",
+      "rightAscensionHours": 17.38212447869049,
+      "declinationDegrees": -23.16410104201423,
+      "distanceAU": 0.9845082425898367
+    },
+    {
+      "utc": "2026-12-14T12:00:00.000Z",
+      "rightAscensionHours": 17.455762583711046,
+      "declinationDegrees": -23.225415358325204,
+      "distanceAU": 0.9843978372857048
+    },
+    {
+      "utc": "2026-12-15T12:00:00.000Z",
+      "rightAscensionHours": 17.529473380024267,
+      "declinationDegrees": -23.279010370133488,
+      "distanceAU": 0.9842915306629276
+    },
+    {
+      "utc": "2026-12-16T12:00:00.000Z",
+      "rightAscensionHours": 17.60324765148721,
+      "declinationDegrees": -23.324854400305686,
+      "distanceAU": 0.984189571124638
+    },
+    {
+      "utc": "2026-12-17T12:00:00.000Z",
+      "rightAscensionHours": 17.67707643896102,
+      "declinationDegrees": -23.362920917856652,
+      "distanceAU": 0.9840922424349707
+    },
+    {
+      "utc": "2026-12-18T12:00:00.000Z",
+      "rightAscensionHours": 17.7509509879287,
+      "declinationDegrees": -23.39318861173084,
+      "distanceAU": 0.9839998579380101
+    },
+    {
+      "utc": "2026-12-19T12:00:00.000Z",
+      "rightAscensionHours": 17.824862675075916,
+      "declinationDegrees": -23.41564125701767,
+      "distanceAU": 0.9839127490504868
+    },
+    {
+      "utc": "2026-12-20T12:00:00.000Z",
+      "rightAscensionHours": 17.898802931944772,
+      "declinationDegrees": -23.430267388876185,
+      "distanceAU": 0.9838312483110991
+    },
+    {
+      "utc": "2026-12-21T12:00:00.000Z",
+      "rightAscensionHours": 17.97276318249846,
+      "declinationDegrees": -23.43705983517063,
+      "distanceAU": 0.9837556683860968
+    },
+    {
+      "utc": "2026-12-22T12:00:00.000Z",
+      "rightAscensionHours": 18.04673480679299,
+      "declinationDegrees": -23.436015185915334,
+      "distanceAU": 0.9836862793624231
+    },
+    {
+      "utc": "2026-12-23T12:00:00.000Z",
+      "rightAscensionHours": 18.120709135970234,
+      "declinationDegrees": -23.427133290781455,
+      "distanceAU": 0.9836232872209143
+    },
+    {
+      "utc": "2026-12-24T12:00:00.000Z",
+      "rightAscensionHours": 18.194677476001416,
+      "declinationDegrees": -23.410416872440788,
+      "distanceAU": 0.9835668164551254
+    },
+    {
+      "utc": "2026-12-25T12:00:00.000Z",
+      "rightAscensionHours": 18.26863115067403,
+      "declinationDegrees": -23.385871323869544,
+      "distanceAU": 0.9835168993588471
+    },
+    {
+      "utc": "2026-12-26T12:00:00.000Z",
+      "rightAscensionHours": 18.3425615497108,
+      "declinationDegrees": -23.35350472545052,
+      "distanceAU": 0.9834734736162939
+    },
+    {
+      "utc": "2026-12-27T12:00:00.000Z",
+      "rightAscensionHours": 18.41646016662046,
+      "declinationDegrees": -23.313328078741904,
+      "distanceAU": 0.9834363886458668
+    },
+    {
+      "utc": "2026-12-28T12:00:00.000Z",
+      "rightAscensionHours": 18.490318613241488,
+      "declinationDegrees": -23.265355715303205,
+      "distanceAU": 0.9834054198794749
+    },
+    {
+      "utc": "2026-12-29T12:00:00.000Z",
+      "rightAscensionHours": 18.564128602851024,
+      "declinationDegrees": -23.209605808537894,
+      "distanceAU": 0.9833802890292384
+    },
+    {
+      "utc": "2026-12-30T12:00:00.000Z",
+      "rightAscensionHours": 18.637881902577718,
+      "declinationDegrees": -23.146100898042647,
+      "distanceAU": 0.9833606875998252
+    },
+    {
+      "utc": "2026-12-31T12:00:00.000Z",
+      "rightAscensionHours": 18.711570261029163,
+      "declinationDegrees": -23.07486833666561,
+      "distanceAU": 0.9833463005859715
+    }
+  ]
+}

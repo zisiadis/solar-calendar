@@ -1,0 +1,2 @@
+# Preserve authoritative reference tables byte-for-byte for checksum validation.
+references/astronomy/*.txt -text
