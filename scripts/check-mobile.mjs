@@ -28,6 +28,25 @@ try{
   const labels=await page.locator('.seasons text, .months text').evaluateAll(els=>els.map(el=>{const r=el.getBoundingClientRect();return {text:el.textContent,left:r.left,right:r.right,top:r.top,bottom:r.bottom};}));
   await page.screenshot({path:path.join(output,`initial-${width}-${height}.png`),fullPage:true});
   assert.ok(labels.every(r=>r.left>=-.5&&r.right<=width+.5&&r.top>=0),`Wheel labels fit ${width}: ${JSON.stringify(labels.filter(r=>r.left<0||r.right>width||r.top<0))}`);
+  for(const guide of [false,true]){
+   const reference=page.getByRole('switch',{name:'Show 12-hour line'});
+   if((await reference.getAttribute('aria-checked')==='true')!==guide)await reference.click();
+   await page.waitForTimeout(250);
+   const spacing=await page.locator('.solar-calendar').evaluate(svg=>{
+    const matrix=svg.getScreenCTM(),texts=[...svg.querySelectorAll('.seasons > text')].slice(0,2);
+    const center=new DOMPoint(500,500).matrixTransform(matrix);
+    const info=texts.map((text,i)=>{const r=text.getBoundingClientRect(),contour=Number(text.dataset.contour);const edge=new DOMPoint(500,500+(i?contour:-contour)).matrixTransform(matrix);return {gap:i?r.top-edge.y:edge.y-r.bottom,rect:{left:r.left,right:r.right,top:r.top,bottom:r.bottom}};});
+    const circle=svg.querySelector('.daylight-reference circle');
+    const radius=circle?Number(circle.getAttribute('r'))*matrix.a:0;
+    const intersects=info.map(({rect:r})=>{const nx=Math.max(r.left,Math.min(center.x,r.right)),ny=Math.max(r.top,Math.min(center.y,r.bottom));const min=Math.hypot(nx-center.x,ny-center.y),max=Math.max(...[[r.left,r.top],[r.left,r.bottom],[r.right,r.top],[r.right,r.bottom]].map(([x,y])=>Math.hypot(x-center.x,y-center.y)));return !!circle&&radius>=min-1&&radius<=max+1;});
+    return {gaps:info.map(i=>i.gap),rects:info.map(i=>i.rect),intersects};
+   });
+   assert.ok(Math.abs(spacing.gaps[0]-spacing.gaps[1])<.6,`Symmetric solstice gaps ${width}: ${JSON.stringify(spacing)}`);
+   assert.ok(Math.min(...spacing.gaps)>=13,`Solstice breathing room ${width}: ${JSON.stringify(spacing)}`);
+   assert.ok(spacing.intersects.every(value=>!value),`Reference circle avoids labels ${width}: ${JSON.stringify(spacing)}`);
+   assert.ok(spacing.rects.every(r=>r.top>=0&&r.left>=0&&r.right<=width+.5),'Solstice labels stay on-screen');
+  }
+  await page.getByRole('switch',{name:'Show 12-hour line'}).click();
   const cdp=await context.newCDPSession(page);
   async function coordinate(index){return page.locator('.day').nth(index).evaluate(el=>{const svg=el.ownerSVGElement,a=Number(el.dataset.mid)*Math.PI/180;const p=new DOMPoint(500+310*Math.sin(a),500-310*Math.cos(a)).matrixTransform(svg.getScreenCTM());return {x:p.x,y:p.y};});}
   const from=await coordinate(120),to=await coordinate(240);

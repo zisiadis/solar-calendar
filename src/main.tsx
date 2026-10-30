@@ -17,7 +17,7 @@ function SolarCalendar({latitude,daylight,showReference,active,selected,onHover,
  const svg=useRef<SVGSVGElement>(null);
  const drag=useRef<number|null>(null);
  const [svgWidth,setSvgWidth]=useState(390);
- useEffect(()=>{const el=svg.current;if(!el)return;const resize=()=>setSvgWidth(el.getBoundingClientRect().width);resize();const observer=new ResizeObserver(resize);observer.observe(el);return()=>observer.disconnect();},[]);
+ useEffect(()=>{const el=svg.current;if(!el)return;let frame=0;const resize=()=>{cancelAnimationFrame(frame);frame=requestAnimationFrame(()=>setSvgWidth(el.getBoundingClientRect().width));};resize();const observer=new ResizeObserver(resize);observer.observe(el);return()=>{observer.disconnect();cancelAnimationFrame(frame);};},[]);
  const bound=Math.max(...daylight.map(daylightRadius),showReference?daylightRadius(12):0)+48;
  const unitsPerPixel=2*bound/svgWidth;
  function explore(event:React.PointerEvent<SVGCircleElement>){
@@ -54,12 +54,24 @@ function SolarCalendar({latitude,daylight,showReference,active,selected,onHover,
   const inward=reference-clearance;
   return inward-contour>=gap-5?inward:reference+clearance;
  };
- const top=point(mobile?radiusAt(0)+22:labelRadius(0,28,16),0);
- const bottom=point(mobile?radiusAt(180)+32:labelRadius(180,34,16),180);
+ // Equal visible gaps, measured in screen pixels, with a shared outward
+ // adjustment when either solstice label approaches the optional guide.
+ let mobileLabelOffset=20;
+ if(mobile&&showReference){
+  for(const angle of [0,180]){
+   const guideOffset=(daylightRadius(12)-radiusAt(angle))/unitsPerPixel;
+   if(Math.abs(mobileLabelOffset-guideOffset)<16)mobileLabelOffset=guideOffset+16;
+  }
+ }
+ const topRadius=mobile?radiusAt(0)+mobileLabelOffset*unitsPerPixel:labelRadius(0,28,16);
+ const bottomRadius=mobile?radiusAt(180)+mobileLabelOffset*unitsPerPixel:labelRadius(180,34,16);
+ const verticalBound=mobile?Math.max(bound,topRadius+8*unitsPerPixel,bottomRadius+8*unitsPerPixel):bound;
+ const top=point(topRadius,0);
+ const bottom=point(bottomRadius,180);
  const left=point(mobile?bound-23:labelRadius(270,46,28),270);
  const right=point(mobile?bound-23:labelRadius(90,46,28),90);
  const seasons=seasonLabels(latitude);
- return <svg ref={svg} className="solar-calendar" viewBox={mobile?`${500-bound} ${500-bound} ${2*bound} ${2*bound}`:"0 0 1000 1000"} role="group" aria-label="The Solar Year" aria-describedby="calendar-description" xmlns="http://www.w3.org/2000/svg">
+ return <svg ref={svg} className="solar-calendar" viewBox={mobile?`${500-bound} ${500-verticalBound} ${2*bound} ${2*verticalBound}`:"0 0 1000 1000"} role="group" aria-label="The Solar Year" aria-describedby="calendar-description" xmlns="http://www.w3.org/2000/svg">
   <desc id="calendar-description">{days.length} days in {year}, clockwise from the December solstice at the top. {seasons.top.toLowerCase()} at the top, {seasons.bottom.toLowerCase()} at the bottom. Use arrow keys to explore days and Enter to select. Daylight at {latitudeLabel(latitude)}. Radial segment length is proportional to daylight: six SVG units per hour from the fixed inner circle. {showReference?'The reference circle marks twelve hours.':''}</desc>
   <defs>{days.filter(d=>d.day===1).map(d=> { const lower=d.angle>90&&d.angle<270;return <path key={d.month} id={`month-${d.month}`} d={lower?arc(253,d.angle+15,d.angle+1,true):arc(253,d.angle+1,d.angle+16)}/>; })}</defs>
   <g aria-label="Days of the year">{days.map(d=><path key={d.index} ref={el=>{refs.current[d.index]=el;}} d={segment(d.angle,d.end,outerRadius(d.index))} data-mid={d.mid} data-hours={daylight[d.index]} data-outer-radius={outerRadius(d.index)} fill={daylightColor(daylight[d.index])} stroke="var(--paper)" strokeWidth=".48" className={`day ${active?.index===d.index?'active':''} ${selected?.index===d.index?'selected':''}`} role="button" aria-label={`${dateLabel(d)}, ${formatDaylight(daylight[d.index])} of daylight${d.index===today.index?', today':''}`} aria-pressed={selected?.index===d.index} tabIndex={focusIndex===d.index?0:-1} onPointerEnter={e=>{if(e.pointerType!=='touch')onHover(d);}} onPointerLeave={()=>onHover(null)} onFocus={()=>{setFocusIndex(d.index);onHover(d);}} onBlur={()=>onHover(null)} onKeyDown={e=>key(e,d)} onClick={()=>onSelect(selected?.index===d.index?null:d)}/>)}</g>
@@ -73,7 +85,7 @@ function SolarCalendar({latitude,daylight,showReference,active,selected,onHover,
    const start=point(radius+4,angle),end=point(radius+14,angle);
    return <line key={angle} x1={start[0]} y1={start[1]} x2={end[0]} y2={end[1]}/>;
   })}</g>
-  <g className="seasons" aria-hidden="true" style={mobile?{fontSize:10*unitsPerPixel,letterSpacing:.7*unitsPerPixel}:undefined}><text x={top[0]} y={top[1]}>{seasons.top}</text><text x={bottom[0]} y={bottom[1]}>{seasons.bottom}</text>{!mobile&&<><text x={left[0]} y={left[1]-5}><tspan x={left[0]}>{seasons.left}</tspan><tspan x={left[0]} dy="17">EQUINOX</tspan></text><text x={right[0]} y={right[1]-5}><tspan x={right[0]}>{seasons.right}</tspan><tspan x={right[0]} dy="17">EQUINOX</tspan></text></>}</g>
+  <g className="seasons" aria-hidden="true" style={mobile?{fontSize:10*unitsPerPixel,letterSpacing:.7*unitsPerPixel}:undefined}><text data-contour={mobile?radiusAt(0):undefined} dominantBaseline={mobile?"central":undefined} x={top[0]} y={top[1]}>{seasons.top}</text><text data-contour={mobile?radiusAt(180):undefined} dominantBaseline={mobile?"central":undefined} x={bottom[0]} y={bottom[1]}>{seasons.bottom}</text>{!mobile&&<><text x={left[0]} y={left[1]-5}><tspan x={left[0]}>{seasons.left}</tspan><tspan x={left[0]} dy="17">EQUINOX</tspan></text><text x={right[0]} y={right[1]-5}><tspan x={right[0]}>{seasons.right}</tspan><tspan x={right[0]} dy="17">EQUINOX</tspan></text></>}</g>
   {mobile&&<circle className="touch-wheel" cx="500" cy="500" r={(232+bound-27)/2} fill="none" stroke="transparent" strokeWidth={bound-27-232} aria-hidden="true"
    onPointerDown={event=>{if(!event.isPrimary||drag.current!==null)return;drag.current=event.pointerId;event.currentTarget.setPointerCapture(event.pointerId);explore(event);}}
    onPointerMove={event=>{if(drag.current===event.pointerId)explore(event);}}

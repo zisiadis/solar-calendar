@@ -71,6 +71,7 @@ try{
    assert.equal(await page.getByRole('switch',{name:'Show day lengths'}).count(),0);
    const referenceSwitch=page.getByRole('switch',{name:'Show 12-hour line'});
    if((await referenceSwitch.getAttribute('aria-checked')==='true')!==view.reference)await referenceSwitch.click();
+   if(mobile)await page.waitForTimeout(250); // Let the label clearance and SVG resize settle.
    assert.ok(await page.locator('.day').evaluateAll(elements=>elements.every(el=>Math.abs(Number(el.dataset.outerRadius)-281-6*Number(el.dataset.hours))<1e-8)));
    assert.equal(await page.locator('.daylight-reference').count(),view.reference?1:0);
    assert.equal(await page.locator('.day title, .day[title], .solar-calendar > title, .today-marker title').count(),0,'Day hover tooltips must stay removed');

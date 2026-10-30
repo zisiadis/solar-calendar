@@ -191,3 +191,7 @@ button { color: inherit; }
  .day-readout { grid-row: 2; margin: 0; }
 }
 @media print { .mobile-readout { display: none; } }
+
+@media (max-width: 1000px) and (max-height: 500px) and (pointer: coarse) {
+ .solar-calendar { width: auto; max-width: 100%; height: calc(100svh - 24px); margin-inline: auto; }
+}
