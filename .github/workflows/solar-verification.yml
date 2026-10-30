@@ -1,0 +1,63 @@
+name: Independent solar verification
+on:
+  pull_request:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 4 1 * *'
+permissions:
+  contents: read
+env:
+  OPENBLAS_NUM_THREADS: '1'
+jobs:
+  compact:
+    name: Solar compact release gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python -m venv verification/.venv
+      - run: verification/.venv/bin/pip install -r verification/requirements.txt
+      - run: npm test
+      - run: npm run verify:solar:tools
+      - run: npm run verify:solar
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: solar-compact-report
+          path: verification/reports/local-compact.json
+          if-no-files-found: warn
+  full:
+    name: Solar full worldwide sweep
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: npm ci
+      - run: python -m venv verification/.venv
+      - run: verification/.venv/bin/pip install -r verification/requirements.txt
+      - run: verification/.venv/bin/python verification/fetch_reference.py
+      - run: verification/.venv/bin/python verification/verify.py --profile full --generate
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: solar-full-report-and-reference
+          path: |
+            verification/reports/local-full.json
+            verification/data/full.json
+            verification/data/full.sha256

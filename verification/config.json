@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "definition": "Solar center above airless geometric horizon, WGS84, elevation 0m; 24h local mean solar date, UTC midnight minus longitude/360 days.",
+  "ordinaryLimitSeconds": 30,
+  "polarLimitSeconds": 180,
+  "seasonLimitSeconds": 120,
+  "grazingExtremumDegrees": 0.05,
+  "compact": {
+    "years": [1900, 2000, 2024, 2026, 2100],
+    "latitudes": [-90, -78, -66.56, -40, 0, 40, 66.56, 78, 90],
+    "longitudes": [-180, 0, 180],
+    "dates": ["02-28", "03-20", "06-21", "09-22", "12-21"]
+  },
+  "full": {
+    "years": [1900, 2000, 2024, 2026, 2100],
+    "latitudes": [-90, -89, -78, -70, -67, -66.6, -66.56, -66.5, -60, -40, -23.44, 0, 23.44, 40, 60, 66.5, 66.56, 66.6, 67, 70, 78, 89, 90],
+    "longitudes": [-180, -90, 0, 90, 180]
+  }
+}

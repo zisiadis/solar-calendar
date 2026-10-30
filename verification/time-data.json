@@ -1,0 +1,17 @@
+{
+  "packages": {
+    "skyfield": "1.55",
+    "numpy": "2.4.4",
+    "jplephem": "2.24",
+    "sgp4": "2.25",
+    "certifi": "2026.10.23"
+  },
+  "timeData": {
+    "constellations.npz": "febb2947d9062443c2c4803d2c6a5427e3ea381f0f8f00413d710ba588a54b13",
+    "delta_t.npz": "2d12bd3e789543b78a1f53c8b76ed7fecffdf7e5149cfb6a0aed21a8b3db5ff6",
+    "iers.npz": "c7d7536d898dfa9f8cd43e8044ff51e108cc8289675a13fee9822010a1c4935c",
+    "nutation.npz": "db231254da3bcbef24faa994eadb80f378d39460aa407026c156e6627c30f11a",
+    "historic_deltat.npy": "f5346b780b36a0325b1847dc6c0083d66edc7e88b7f648b4c98a67bbd02b5d3f",
+    "morrison_stephenson_deltat.npy": "439e05269890df41dd75820f3f2ef467539e36eb36753e8ee8b4b78d29baad52"
+  }
+}

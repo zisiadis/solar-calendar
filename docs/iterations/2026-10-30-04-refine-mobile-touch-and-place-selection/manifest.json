@@ -1,0 +1,226 @@
+{
+  "title": "Refine mobile touch and place selection",
+  "summary": "Completed the mobile redesign with a larger wheel, readable month and season labels, live center information, thumb-friendly day controls below the wheel, touch dragging, a keyboard-aware place sheet, and a landscape composition. Verified small phones and polar locations; desktop appearance is preserved.",
+  "visualSourceHash": "d5279854981a9b799806e67d7ace4f421c59abb4915bf6ee9c7cd7c0f85cfdd6",
+  "capturedAt": "2026-10-30T13:00:51.615Z",
+  "calendarDate": "2026-10-29",
+  "timezone": "Europe/London",
+  "location": {
+    "latitude": 40,
+    "longitude": 0,
+    "label": "Default location"
+  },
+  "source": "solar-year.html",
+  "sourceSha256": "291a60c557ff9e2913b22074bcafaed59f2a184753676c5c0d546c34400c4fab",
+  "browser": "154.0.8037.57",
+  "captures": [
+    {
+      "file": "01-day-lengths-desktop.png",
+      "view": "Day lengths",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-desktop.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "03-selected-day-desktop.png",
+      "view": "Selected day",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "04-place-search-desktop.png",
+      "view": "Place search",
+      "device": "desktop",
+      "width": 1440,
+      "height": 1000,
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "01-day-lengths-mobile.png",
+      "view": "Day lengths",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "03-selected-day-mobile.png",
+      "view": "Selected day",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "04-place-search-mobile.png",
+      "view": "Place search",
+      "device": "mobile",
+      "width": 390,
+      "height": 844,
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "01-day-lengths-small-mobile.png",
+      "view": "Day lengths",
+      "device": "small-mobile",
+      "width": 360,
+      "height": 740,
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-small-mobile.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "small-mobile",
+      "width": 360,
+      "height": 740,
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "03-selected-day-small-mobile.png",
+      "view": "Selected day",
+      "device": "small-mobile",
+      "width": 360,
+      "height": 740,
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "04-place-search-small-mobile.png",
+      "view": "Place search",
+      "device": "small-mobile",
+      "width": 360,
+      "height": 740,
+      "viewport": {
+        "width": 360,
+        "height": 740
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "01-day-lengths-mobile-landscape.png",
+      "view": "Day lengths",
+      "device": "mobile-landscape",
+      "width": 844,
+      "height": 390,
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "02-day-lengths-reference-mobile-landscape.png",
+      "view": "Day lengths + 12-hour line",
+      "device": "mobile-landscape",
+      "width": 844,
+      "height": 390,
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dayLengths": true,
+      "referenceLine": true
+    },
+    {
+      "file": "03-selected-day-mobile-landscape.png",
+      "view": "Selected day",
+      "device": "mobile-landscape",
+      "width": 844,
+      "height": 390,
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    },
+    {
+      "file": "04-place-search-mobile-landscape.png",
+      "view": "Place search",
+      "device": "mobile-landscape",
+      "width": 844,
+      "height": 390,
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "dayLengths": true,
+      "referenceLine": false
+    }
+  ]
+}

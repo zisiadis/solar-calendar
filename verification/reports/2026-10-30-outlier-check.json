@@ -1,0 +1,37 @@
+{
+  "case": {
+    "year": 2100,
+    "month": 3,
+    "day": 18,
+    "latitude": -89,
+    "longitude": 0
+  },
+  "fullReferenceSeconds": 75208.98689288087,
+  "singleDayReferenceSeconds": 75208.98689305909,
+  "browserSeconds": 74092.073,
+  "referenceFirstHourMinimum": {
+    "seconds": 1380,
+    "degrees": 7.652458581007773e-06
+  },
+  "browserDiagnostics": {
+    "roots": [
+      {
+        "seconds": 1891.971,
+        "direction": 1
+      },
+      {
+        "seconds": 814.556,
+        "direction": -1
+      },
+      {
+        "seconds": 75169.488,
+        "direction": -1
+      }
+    ],
+    "minimum": {
+      "seconds": 1353,
+      "degrees": -0.0007658844419609068
+    }
+  },
+  "interpretation": "Independent daily oracle agrees with batched oracle. The browser model predicts a short dark excursion near midnight while the DE440s reference remains above the horizon there. This is a year-2100 polar grazing case, not an ordinary-location error."
+}

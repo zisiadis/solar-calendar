@@ -23,6 +23,14 @@ Primary references: [JPL Horizons](https://ssd.jpl.nasa.gov/horizons/), [Astrono
 
 ## Reproducible verification
 
+The separate [independent DE440s verification suite](verification/README.md)
+adds a Skyfield oracle, worldwide duration grids, polar transition checks,
+seasonal timing comparisons and machine-readable accuracy reports. The official
+JPL kernel was supplied by the user following a direct download, validated as an
+SPK kernel, and pinned by SHA-256. See `verification/reports/` for completed
+comparisons and limitations. Missing pins or fixtures fail verification. The production build
+does not invoke this suite, and a module-graph check verifies its exclusion.
+
 Run `npm test`.
 
 - Compare calculated astrometric solar coordinates with **7,305 JPL samples spanning 1900–2100**, at the original observing location. Observed maximum angular difference: **7.872 arcseconds**. Test tolerance is the library's stated one-arcminute target.
@@ -31,6 +39,17 @@ Run `npm test`.
 - Check source-file hashes, date and month coverage, leap years, astronomical anchor mapping, hemispheres, polar cases, longitude handling and real offline city search.
 
 Angular errors do not translate into a single worldwide timing error. Near a grazing polar horizon, a small angular difference can substantially move a crossing. Earth-rotation predictions and future event times also have uncertainty. The display rounds to minutes; neither the rounded display nor these comparisons guarantees minute accuracy at every polar boundary. This is a validated numerical astronomical calculation, not direct observation at every location.
+
+## Independent DE440s results — 2026-10-30
+
+The completed five-year full grid contains 210,105 date/location cases. Maximum
+duration disagreement is **0.914 seconds at ordinary sampled locations** and
+**1,116.914 seconds in the worst polar grazing case (89°S, 2100-03-18)**. For the
+2026 full-year grid, the respective maxima are **0.382 seconds** and **108.715
+seconds**. Nineteen daylight cases and four seasonal timestamps fail the
+configured gates. These are numerical comparisons, not a universal accuracy
+guarantee or atmospheric sunrise/sunset predictions. See the
+[full report and limitations](verification/reports/2026-10-30-accuracy.md).
 
 ## Geometry
 

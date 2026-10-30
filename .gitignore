@@ -8,3 +8,12 @@ dist/
 # Generated standalone previews; reproduce with npm run export:html
 /solar-year.html
 /solar-year-browser-preview.zip
+
+# Independent scientific verification; never website assets.
+/verification/.venv/
+/verification/__pycache__/
+/verification/data/*.bsp
+/verification/data/*.part
+/verification/data/full.json
+/verification/data/full.sha256
+/verification/reports/local-*

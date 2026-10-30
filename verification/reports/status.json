@@ -1,0 +1,78 @@
+{
+  "status": "failed",
+  "date": "2026-10-30",
+  "de440sDownloaded": true,
+  "referenceDelivery": "User supplied after reporting direct official JPL download. Internal DE440 header, SPK structure, coverage and checksum checked; see source.json and reports/de440s-header.txt.",
+  "independentWorldwideComparisonRun": true,
+  "fullSweepStatus": "completed",
+  "verifiedLocally": {
+    "verifierTestsPassed": 9,
+    "existingTestFilesPassed": 4,
+    "productionModulesChecked": 35,
+    "productionBuildPassed": true,
+    "productionJsAndCssUnchanged": true
+  },
+  "compact": {
+    "report": "2026-10-30-compact.json",
+    "cases": 729,
+    "ordinary": {
+      "count": 243,
+      "maxSeconds": 0.41623948750202544,
+      "medianSeconds": 0.049005148619471584,
+      "p95Seconds": 0.2978984803368803
+    },
+    "polar": {
+      "count": 486,
+      "maxSeconds": 191.77700147236465,
+      "medianSeconds": 0.05479229272532393,
+      "p95Seconds": 19.254455616290215
+    },
+    "failures": {
+      "daylight-state-disagreement": 1,
+      "duration-limit": 4,
+      "season-limit": 4
+    },
+    "roundedMinuteDisagreements": 30
+  },
+  "full": {
+    "report": "2026-10-30-full.json",
+    "cases": 210105,
+    "ordinary": {
+      "count": 63945,
+      "maxSeconds": 0.9142372980641085,
+      "medianSeconds": 0.0568279145663837,
+      "p95Seconds": 0.36256604999507536
+    },
+    "polar": {
+      "count": 146160,
+      "maxSeconds": 1116.913892880868,
+      "medianSeconds": 0.08006262547860388,
+      "p95Seconds": 1.3965671140977065
+    },
+    "failures": {
+      "daylight-state-disagreement": 6,
+      "duration-limit": 13,
+      "season-limit": 4
+    },
+    "roundedMinuteDisagreements": 1216
+  },
+  "accuracyConclusion": "See completed numerical comparisons. Passing verifier unit tests does not mean the browser model passed its accuracy gates; polar and time-convention limitations remain.",
+  "currentYear": {
+    "year": 2026,
+    "cases": 41975,
+    "ordinary": {
+      "count": 12775,
+      "maxSeconds": 0.38235662329680054,
+      "medianSeconds": 0.04711824357218575,
+      "p95Seconds": 0.23121344577411945
+    },
+    "polar": {
+      "count": 29200,
+      "maxSeconds": 108.71495957672596,
+      "medianSeconds": 0.07131317955281702,
+      "p95Seconds": 0.750356424813799
+    }
+  },
+  "outlierCheck": "2026-10-30-outlier-check.json",
+  "outlierConfirmedWithIndependentDayOracle": true
+}

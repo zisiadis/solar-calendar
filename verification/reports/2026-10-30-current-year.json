@@ -1,0 +1,141 @@
+{
+  "year": 2026,
+  "cases": 41975,
+  "ordinary": {
+    "count": 12775,
+    "maxSeconds": 0.38235662329680054,
+    "medianSeconds": 0.04711824357218575,
+    "p95Seconds": 0.23121344577411945
+  },
+  "polar": {
+    "count": 29200,
+    "maxSeconds": 108.71495957672596,
+    "medianSeconds": 0.07131317955281702,
+    "p95Seconds": 0.750356424813799
+  },
+  "source": {
+    "source": {
+      "schemaVersion": 1,
+      "status": "pinned",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de440s.bsp",
+      "file": "de440s.bsp",
+      "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+      "retrievedAt": "2026-10-30T11:31:15.013851+00:00",
+      "reason": null,
+      "delivery": "User uploaded file after reporting direct download from the official JPL URL; not independently fetched by this environment.",
+      "sizeBytes": 32726016
+    },
+    "packages": {
+      "skyfield": "1.55",
+      "numpy": "2.4.4",
+      "jplephem": "2.24",
+      "sgp4": "2.25",
+      "certifi": "2026.10.23"
+    },
+    "timeData": {
+      "constellations.npz": "febb2947d9062443c2c4803d2c6a5427e3ea381f0f8f00413d710ba588a54b13",
+      "delta_t.npz": "2d12bd3e789543b78a1f53c8b76ed7fecffdf7e5149cfb6a0aed21a8b3db5ff6",
+      "iers.npz": "c7d7536d898dfa9f8cd43e8044ff51e108cc8289675a13fee9822010a1c4935c",
+      "nutation.npz": "db231254da3bcbef24faa994eadb80f378d39460aa407026c156e6627c30f11a",
+      "historic_deltat.npy": "f5346b780b36a0325b1847dc6c0083d66edc7e88b7f648b4c98a67bbd02b5d3f",
+      "morrison_stephenson_deltat.npy": "439e05269890df41dd75820f3f2ef467539e36eb36753e8ee8b4b78d29baad52"
+    },
+    "configSha256": "0c99c7b70b509412e16f9cf5218f8b738e46c5186d4f9f15b3847417e29fd826",
+    "generatorSha256": "236e9ce618212ae82b0d62a6b96c6b0050d4eafe71bc064617e9311feefb2eff"
+  },
+  "referenceFixtureSha256": "9a8bf325abaf6f41637ddbb1eab11263dca655934f43f389cf7f9e859c384ebb",
+  "modelSourceSha256": "81932433a81b986e6d502e288ba09228ddd9756aafc5f27a0bc7f908d6f18231",
+  "daylightStateDisagreements": [
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -90,
+      "seconds": 108.71495957672596,
+      "crossings": [
+        43036.72599178925,
+        43145.44095136598
+      ],
+      "grazing": true,
+      "modelSeconds": 0
+    }
+  ],
+  "worst": [
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -90,
+      "seconds": 108.71495957672596,
+      "crossings": [
+        43036.72599178925,
+        43145.44095136598
+      ],
+      "grazing": true,
+      "modelSeconds": 0,
+      "errorSeconds": 108.71495957672596
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 113.06714059785008,
+      "crossings": [
+        43042.18908734992,
+        43155.25622794777
+      ],
+      "grazing": true,
+      "modelSeconds": 19.616,
+      "errorSeconds": 93.45114059785008
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 22,
+      "latitude": 66.56,
+      "longitude": 180,
+      "seconds": 113.06713930517435,
+      "crossings": [
+        43042.18908773735,
+        43155.256227042526
+      ],
+      "grazing": true,
+      "modelSeconds": 19.616,
+      "errorSeconds": 93.45113930517435
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 75.50351257249713,
+      "crossings": [
+        43264.452577929944,
+        43339.95609050244
+      ],
+      "grazing": true,
+      "modelSeconds": 20.694000000000003,
+      "errorSeconds": 54.80951257249713
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": 20,
+      "latitude": -66.56,
+      "longitude": -180,
+      "seconds": 75.50351255014539,
+      "crossings": [
+        43264.452577684075,
+        43339.95609023422
+      ],
+      "grazing": true,
+      "modelSeconds": 20.694000000000003,
+      "errorSeconds": 54.809512550145385
+    }
+  ]
+}

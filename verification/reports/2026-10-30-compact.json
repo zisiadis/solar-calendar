@@ -1,0 +1,1028 @@
+{
+  "status": "failed",
+  "profile": "compact",
+  "model": "astronomy-engine-2.1.19-geometric-v1",
+  "modelSourceSha256": "81932433a81b986e6d502e288ba09228ddd9756aafc5f27a0bc7f908d6f18231",
+  "provenance": {
+    "source": {
+      "schemaVersion": 1,
+      "status": "pinned",
+      "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de440s.bsp",
+      "file": "de440s.bsp",
+      "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+      "retrievedAt": "2026-10-30T11:31:15.013851+00:00",
+      "reason": null,
+      "delivery": "User uploaded file after reporting direct download from the official JPL URL; not independently fetched by this environment.",
+      "sizeBytes": 32726016
+    },
+    "packages": {
+      "skyfield": "1.55",
+      "numpy": "2.4.4",
+      "jplephem": "2.24",
+      "sgp4": "2.25",
+      "certifi": "2026.10.23"
+    },
+    "timeData": {
+      "constellations.npz": "febb2947d9062443c2c4803d2c6a5427e3ea381f0f8f00413d710ba588a54b13",
+      "delta_t.npz": "2d12bd3e789543b78a1f53c8b76ed7fecffdf7e5149cfb6a0aed21a8b3db5ff6",
+      "iers.npz": "c7d7536d898dfa9f8cd43e8044ff51e108cc8289675a13fee9822010a1c4935c",
+      "nutation.npz": "db231254da3bcbef24faa994eadb80f378d39460aa407026c156e6627c30f11a",
+      "historic_deltat.npy": "f5346b780b36a0325b1847dc6c0083d66edc7e88b7f648b4c98a67bbd02b5d3f",
+      "morrison_stephenson_deltat.npy": "439e05269890df41dd75820f3f2ef467539e36eb36753e8ee8b4b78d29baad52"
+    },
+    "configSha256": "0c99c7b70b509412e16f9cf5218f8b738e46c5186d4f9f15b3847417e29fd826",
+    "generatorSha256": "236e9ce618212ae82b0d62a6b96c6b0050d4eafe71bc064617e9311feefb2eff"
+  },
+  "summary": {
+    "count": 729,
+    "maxSeconds": 191.77700147236465,
+    "medianSeconds": 0.04975845439184923,
+    "p95Seconds": 13.42379849338209
+  },
+  "ordinary": {
+    "count": 243,
+    "maxSeconds": 0.41623948750202544,
+    "medianSeconds": 0.049005148619471584,
+    "p95Seconds": 0.2978984803368803
+  },
+  "polar": {
+    "count": 486,
+    "maxSeconds": 191.77700147236465,
+    "medianSeconds": 0.05479229272532393,
+    "p95Seconds": 19.254455616290215
+  },
+  "roundedMinuteDisagreements": [
+    {
+      "year": 1900,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 48560.95026335679,
+      "crossings": [
+        48560.95026335679
+      ],
+      "grazing": false,
+      "modelSeconds": 48630.454,
+      "errorSeconds": 69.50373664320796
+    },
+    {
+      "year": 1900,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 36770.048413658515,
+      "crossings": [
+        49629.951586341485
+      ],
+      "grazing": false,
+      "modelSeconds": 36700.46,
+      "errorSeconds": 69.58841365851549
+    },
+    {
+      "year": 1900,
+      "month": 12,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 86310.77608304426,
+      "crossings": [
+        89.22391695573776
+      ],
+      "grazing": true,
+      "modelSeconds": 86273.5,
+      "errorSeconds": 37.276083044256666
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 0,
+      "seconds": 168.7468208529608,
+      "crossings": [
+        43224.71990226225,
+        43393.46672311521
+      ],
+      "grazing": true,
+      "modelSeconds": 138.16799999999998,
+      "errorSeconds": 30.57882085296083
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 85649.56134181992,
+      "crossings": [
+        415.43067806529626,
+        86064.99201988522
+      ],
+      "grazing": true,
+      "modelSeconds": 85656.565,
+      "errorSeconds": 7.003658180081402
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 86.25489334384474,
+      "crossings": [
+        43067.35527545111,
+        43153.610168794956
+      ],
+      "grazing": true,
+      "modelSeconds": 0,
+      "errorSeconds": 86.25489334384474
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": 180,
+      "seconds": 217.03245784297906,
+      "crossings": [
+        42971.21892297253,
+        43188.25138081551
+      ],
+      "grazing": true,
+      "modelSeconds": 186.731,
+      "errorSeconds": 30.30145784297906
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": -180,
+      "seconds": 524.9684261862931,
+      "crossings": [
+        43060.129364431836,
+        43585.09779061813
+      ],
+      "grazing": true,
+      "modelSeconds": 508.84700000000004,
+      "errorSeconds": 16.121426186293036
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 0,
+      "seconds": 235.34416699930443,
+      "crossings": [
+        43198.11372994771,
+        43433.45789694702
+      ],
+      "grazing": true,
+      "modelSeconds": 197.72,
+      "errorSeconds": 37.624166999304435
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 9405.234301602468,
+      "crossings": [
+        9405.234301602468
+      ],
+      "grazing": false,
+      "modelSeconds": 9385.94,
+      "errorSeconds": 19.294301602467385
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 52605.23430160247,
+      "crossings": [
+        52605.23430160247
+      ],
+      "grazing": false,
+      "modelSeconds": 52585.95,
+      "errorSeconds": 19.284301602470805
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 75926.44508234225,
+      "crossings": [
+        10473.554917657748
+      ],
+      "grazing": false,
+      "modelSeconds": 75945.61,
+      "errorSeconds": 19.164917657748447
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 32726.445082342252,
+      "crossings": [
+        53673.55491765775
+      ],
+      "grazing": false,
+      "modelSeconds": 32745.6,
+      "errorSeconds": 19.15491765774641
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 75.50351355125895,
+      "crossings": [
+        43264.452577458345,
+        43339.956091009604
+      ],
+      "grazing": true,
+      "modelSeconds": 20.694000000000003,
+      "errorSeconds": 54.809513551258945
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 42348.64764860831,
+      "crossings": [
+        44051.35235139169
+      ],
+      "grazing": false,
+      "modelSeconds": 42312.722,
+      "errorSeconds": 35.92564860831044
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 42973.8592619542,
+      "crossings": [
+        42973.8592619542
+      ],
+      "grazing": false,
+      "modelSeconds": 43009.829,
+      "errorSeconds": 35.96973804579466
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 86173.8592619542,
+      "crossings": [
+        86173.8592619542
+      ],
+      "grazing": false,
+      "modelSeconds": 86209.834,
+      "errorSeconds": 35.97473804579931
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": -180,
+      "seconds": 85766.19241286287,
+      "crossings": [
+        201.56368292582243,
+        85967.7560957887
+      ],
+      "grazing": true,
+      "modelSeconds": 85775.533,
+      "errorSeconds": 9.340587137121474
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 113.06713909806422,
+      "crossings": [
+        43042.18908827279,
+        43155.25622737085
+      ],
+      "grazing": true,
+      "modelSeconds": 19.616,
+      "errorSeconds": 93.45113909806422
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": 0,
+      "seconds": 215.15538143182494,
+      "crossings": [
+        42975.86830491589,
+        43191.02368634772
+      ],
+      "grazing": true,
+      "modelSeconds": 184.041,
+      "errorSeconds": 31.11438143182494
+    },
+    {
+      "year": 2100,
+      "month": 2,
+      "day": 28,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 52291.08816755116,
+      "crossings": [
+        17760.7416248768,
+        70051.82979242796
+      ],
+      "grazing": false,
+      "modelSeconds": 52289.913,
+      "errorSeconds": 1.1751675511623034
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 3389.369001472369,
+      "crossings": [
+        3389.369001472369
+      ],
+      "grazing": false,
+      "modelSeconds": 3197.5950000000003,
+      "errorSeconds": 191.77400147236858
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 46589.36900147237,
+      "crossings": [
+        46589.36900147237
+      ],
+      "grazing": false,
+      "modelSeconds": 46397.592000000004,
+      "errorSeconds": 191.77700147236465
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 81941.64327434264,
+      "crossings": [
+        4458.356725657359
+      ],
+      "grazing": false,
+      "modelSeconds": 82133.37800000001,
+      "errorSeconds": 191.7347256573703
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 38741.64327434264,
+      "crossings": [
+        47658.35672565736
+      ],
+      "grazing": false,
+      "modelSeconds": 38933.378,
+      "errorSeconds": 191.73472565735574
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 49679.09068814479,
+      "crossings": [
+        36720.90931185521
+      ],
+      "grazing": false,
+      "modelSeconds": 49823.243,
+      "errorSeconds": 144.15231185521407
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 6479.090688144788,
+      "crossings": [
+        79920.90931185521
+      ],
+      "grazing": false,
+      "modelSeconds": 6623.254,
+      "errorSeconds": 144.16331185521176
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 35642.771569406614,
+      "crossings": [
+        35642.771569406614
+      ],
+      "grazing": false,
+      "modelSeconds": 35498.614,
+      "errorSeconds": 144.1575694066123
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 78842.77156940661,
+      "crossings": [
+        78842.77156940661
+      ],
+      "grazing": false,
+      "modelSeconds": 78698.6,
+      "errorSeconds": 144.1715694066079
+    },
+    {
+      "year": 2100,
+      "month": 12,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 85292.59039563117,
+      "crossings": [
+        493.8478343978494,
+        85786.43823002902
+      ],
+      "grazing": true,
+      "modelSeconds": 85289.872,
+      "errorSeconds": 2.7183956311637303
+    }
+  ],
+  "failures": [
+    {
+      "year": 2000,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 86.25489334384474,
+      "crossings": [
+        43067.35527545111,
+        43153.610168794956
+      ],
+      "grazing": true,
+      "modelSeconds": 0,
+      "errorSeconds": 86.25489334384474,
+      "reason": "daylight-state-disagreement"
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 3389.369001472369,
+      "crossings": [
+        3389.369001472369
+      ],
+      "grazing": false,
+      "modelSeconds": 3197.5950000000003,
+      "errorSeconds": 191.77400147236858,
+      "reason": "duration-limit"
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 46589.36900147237,
+      "crossings": [
+        46589.36900147237
+      ],
+      "grazing": false,
+      "modelSeconds": 46397.592000000004,
+      "errorSeconds": 191.77700147236465,
+      "reason": "duration-limit"
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 81941.64327434264,
+      "crossings": [
+        4458.356725657359
+      ],
+      "grazing": false,
+      "modelSeconds": 82133.37800000001,
+      "errorSeconds": 191.7347256573703,
+      "reason": "duration-limit"
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 38741.64327434264,
+      "crossings": [
+        47658.35672565736
+      ],
+      "grazing": false,
+      "modelSeconds": 38933.378,
+      "errorSeconds": 191.73472565735574,
+      "reason": "duration-limit"
+    },
+    {
+      "year": 2100,
+      "event": "march-equinox",
+      "reference": "2100-03-20T13:05:37.985776+00:00",
+      "model": "2100-03-20T13:03:09.192Z",
+      "errorSeconds": 148.793776,
+      "reason": "season-limit"
+    },
+    {
+      "year": 2100,
+      "event": "june-solstice",
+      "reference": "2100-06-21T05:34:09.305951+00:00",
+      "model": "2100-06-21T05:31:45.793Z",
+      "errorSeconds": 143.512951,
+      "reason": "season-limit"
+    },
+    {
+      "year": 2100,
+      "event": "september-equinox",
+      "reference": "2100-09-22T22:02:26.587659+00:00",
+      "model": "2100-09-22T22:00:07.034Z",
+      "errorSeconds": 139.553659,
+      "reason": "season-limit"
+    },
+    {
+      "year": 2100,
+      "event": "december-solstice",
+      "reference": "2100-12-21T19:52:51.452966+00:00",
+      "model": "2100-12-21T19:50:50.147Z",
+      "errorSeconds": 121.305966,
+      "reason": "season-limit"
+    }
+  ],
+  "seasons": [
+    {
+      "year": 1900,
+      "event": "march-equinox",
+      "reference": "1900-03-21T01:38:15.937644+00:00",
+      "model": "1900-03-21T01:38:57.618Z",
+      "errorSeconds": 41.680356
+    },
+    {
+      "year": 1900,
+      "event": "june-solstice",
+      "reference": "1900-06-21T21:39:02.061446+00:00",
+      "model": "1900-06-21T21:39:59.934Z",
+      "errorSeconds": 57.872554
+    },
+    {
+      "year": 1900,
+      "event": "september-equinox",
+      "reference": "1900-09-23T12:19:26.636480+00:00",
+      "model": "1900-09-23T12:20:38.771Z",
+      "errorSeconds": 72.13452
+    },
+    {
+      "year": 1900,
+      "event": "december-solstice",
+      "reference": "1900-12-22T06:40:49.968888+00:00",
+      "model": "1900-12-22T06:41:32.651Z",
+      "errorSeconds": 42.682112
+    },
+    {
+      "year": 2000,
+      "event": "march-equinox",
+      "reference": "2000-03-20T07:35:14.351263+00:00",
+      "model": "2000-03-20T07:35:15.576Z",
+      "errorSeconds": 1.224737
+    },
+    {
+      "year": 2000,
+      "event": "june-solstice",
+      "reference": "2000-06-21T01:47:42.049923+00:00",
+      "model": "2000-06-21T01:47:39.260Z",
+      "errorSeconds": 2.789923
+    },
+    {
+      "year": 2000,
+      "event": "september-equinox",
+      "reference": "2000-09-22T17:27:35.348670+00:00",
+      "model": "2000-09-22T17:27:57.187Z",
+      "errorSeconds": 21.83833
+    },
+    {
+      "year": 2000,
+      "event": "december-solstice",
+      "reference": "2000-12-21T13:37:25.451055+00:00",
+      "model": "2000-12-21T13:37:52.025Z",
+      "errorSeconds": 26.573945
+    },
+    {
+      "year": 2024,
+      "event": "march-equinox",
+      "reference": "2024-03-20T03:06:24.153553+00:00",
+      "model": "2024-03-20T03:06:24.047Z",
+      "errorSeconds": 0.106553
+    },
+    {
+      "year": 2024,
+      "event": "june-solstice",
+      "reference": "2024-06-20T20:50:59.801536+00:00",
+      "model": "2024-06-20T20:50:58.360Z",
+      "errorSeconds": 1.441536
+    },
+    {
+      "year": 2024,
+      "event": "september-equinox",
+      "reference": "2024-09-22T12:43:39.596226+00:00",
+      "model": "2024-09-22T12:43:55.451Z",
+      "errorSeconds": 15.854774
+    },
+    {
+      "year": 2024,
+      "event": "december-solstice",
+      "reference": "2024-12-21T09:20:34.201407+00:00",
+      "model": "2024-12-21T09:20:18.673Z",
+      "errorSeconds": 15.528407
+    },
+    {
+      "year": 2026,
+      "event": "march-equinox",
+      "reference": "2026-03-20T14:45:57.446870+00:00",
+      "model": "2026-03-20T14:45:36.044Z",
+      "errorSeconds": 21.40287
+    },
+    {
+      "year": 2026,
+      "event": "june-solstice",
+      "reference": "2026-06-21T08:24:30.344979+00:00",
+      "model": "2026-06-21T08:25:00.316Z",
+      "errorSeconds": 29.971021
+    },
+    {
+      "year": 2026,
+      "event": "september-equinox",
+      "reference": "2026-09-23T00:05:13.166773+00:00",
+      "model": "2026-09-23T00:05:38.617Z",
+      "errorSeconds": 25.450227
+    },
+    {
+      "year": 2026,
+      "event": "december-solstice",
+      "reference": "2026-12-21T20:50:14.174023+00:00",
+      "model": "2026-12-21T20:50:22.187Z",
+      "errorSeconds": 8.012977
+    },
+    {
+      "year": 2100,
+      "event": "march-equinox",
+      "reference": "2100-03-20T13:05:37.985776+00:00",
+      "model": "2100-03-20T13:03:09.192Z",
+      "errorSeconds": 148.793776
+    },
+    {
+      "year": 2100,
+      "event": "june-solstice",
+      "reference": "2100-06-21T05:34:09.305951+00:00",
+      "model": "2100-06-21T05:31:45.793Z",
+      "errorSeconds": 143.512951
+    },
+    {
+      "year": 2100,
+      "event": "september-equinox",
+      "reference": "2100-09-22T22:02:26.587659+00:00",
+      "model": "2100-09-22T22:00:07.034Z",
+      "errorSeconds": 139.553659
+    },
+    {
+      "year": 2100,
+      "event": "december-solstice",
+      "reference": "2100-12-21T19:52:51.452966+00:00",
+      "model": "2100-12-21T19:50:50.147Z",
+      "errorSeconds": 121.305966
+    }
+  ],
+  "worst": [
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 46589.36900147237,
+      "crossings": [
+        46589.36900147237
+      ],
+      "grazing": false,
+      "modelSeconds": 46397.592000000004,
+      "errorSeconds": 191.77700147236465
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 3389.369001472369,
+      "crossings": [
+        3389.369001472369
+      ],
+      "grazing": false,
+      "modelSeconds": 3197.5950000000003,
+      "errorSeconds": 191.77400147236858
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 81941.64327434264,
+      "crossings": [
+        4458.356725657359
+      ],
+      "grazing": false,
+      "modelSeconds": 82133.37800000001,
+      "errorSeconds": 191.7347256573703
+    },
+    {
+      "year": 2100,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 38741.64327434264,
+      "crossings": [
+        47658.35672565736
+      ],
+      "grazing": false,
+      "modelSeconds": 38933.378,
+      "errorSeconds": 191.73472565735574
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 78842.77156940661,
+      "crossings": [
+        78842.77156940661
+      ],
+      "grazing": false,
+      "modelSeconds": 78698.6,
+      "errorSeconds": 144.1715694066079
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": 0,
+      "seconds": 6479.090688144788,
+      "crossings": [
+        79920.90931185521
+      ],
+      "grazing": false,
+      "modelSeconds": 6623.254,
+      "errorSeconds": 144.16331185521176
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 35642.771569406614,
+      "crossings": [
+        35642.771569406614
+      ],
+      "grazing": false,
+      "modelSeconds": 35498.614,
+      "errorSeconds": 144.1575694066123
+    },
+    {
+      "year": 2100,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 49679.09068814479,
+      "crossings": [
+        36720.90931185521
+      ],
+      "grazing": false,
+      "modelSeconds": 49823.243,
+      "errorSeconds": 144.15231185521407
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 113.06713909806422,
+      "crossings": [
+        43042.18908827279,
+        43155.25622737085
+      ],
+      "grazing": true,
+      "modelSeconds": 19.616,
+      "errorSeconds": 93.45113909806422
+    },
+    {
+      "year": 2000,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": -180,
+      "seconds": 86.25489334384474,
+      "crossings": [
+        43067.35527545111,
+        43153.610168794956
+      ],
+      "grazing": true,
+      "modelSeconds": 0,
+      "errorSeconds": 86.25489334384474
+    },
+    {
+      "year": 1900,
+      "month": 3,
+      "day": 20,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 36770.048413658515,
+      "crossings": [
+        49629.951586341485
+      ],
+      "grazing": false,
+      "modelSeconds": 36700.46,
+      "errorSeconds": 69.58841365851549
+    },
+    {
+      "year": 1900,
+      "month": 3,
+      "day": 20,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 48560.95026335679,
+      "crossings": [
+        48560.95026335679
+      ],
+      "grazing": false,
+      "modelSeconds": 48630.454,
+      "errorSeconds": 69.50373664320796
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 75.50351355125895,
+      "crossings": [
+        43264.452577458345,
+        43339.956091009604
+      ],
+      "grazing": true,
+      "modelSeconds": 20.694000000000003,
+      "errorSeconds": 54.809513551258945
+    },
+    {
+      "year": 2024,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 0,
+      "seconds": 235.34416699930443,
+      "crossings": [
+        43198.11372994771,
+        43433.45789694702
+      ],
+      "grazing": true,
+      "modelSeconds": 197.72,
+      "errorSeconds": 37.624166999304435
+    },
+    {
+      "year": 1900,
+      "month": 12,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 180,
+      "seconds": 86310.77608304426,
+      "crossings": [
+        89.22391695573776
+      ],
+      "grazing": true,
+      "modelSeconds": 86273.5,
+      "errorSeconds": 37.276083044256666
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": 0,
+      "seconds": 86173.8592619542,
+      "crossings": [
+        86173.8592619542
+      ],
+      "grazing": false,
+      "modelSeconds": 86209.834,
+      "errorSeconds": 35.97473804579931
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": 90,
+      "longitude": -180,
+      "seconds": 42973.8592619542,
+      "crossings": [
+        42973.8592619542
+      ],
+      "grazing": false,
+      "modelSeconds": 43009.829,
+      "errorSeconds": 35.96973804579466
+    },
+    {
+      "year": 2026,
+      "month": 9,
+      "day": 22,
+      "latitude": -90,
+      "longitude": -180,
+      "seconds": 42348.64764860831,
+      "crossings": [
+        44051.35235139169
+      ],
+      "grazing": false,
+      "modelSeconds": 42312.722,
+      "errorSeconds": 35.92564860831044
+    },
+    {
+      "year": 2026,
+      "month": 12,
+      "day": 21,
+      "latitude": 66.56,
+      "longitude": 0,
+      "seconds": 215.15538143182494,
+      "crossings": [
+        42975.86830491589,
+        43191.02368634772
+      ],
+      "grazing": true,
+      "modelSeconds": 184.041,
+      "errorSeconds": 31.11438143182494
+    },
+    {
+      "year": 2000,
+      "month": 6,
+      "day": 21,
+      "latitude": -66.56,
+      "longitude": 0,
+      "seconds": 168.7468208529608,
+      "crossings": [
+        43224.71990226225,
+        43393.46672311521
+      ],
+      "grazing": true,
+      "modelSeconds": 138.16799999999998,
+      "errorSeconds": 30.57882085296083
+    }
+  ]
+}

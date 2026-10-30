@@ -10,7 +10,10 @@
     "preview": "vite preview --host 0.0.0.0",
     "export:html": "npm run build && node scripts/export-html.mjs && node scripts/capture-iteration.mjs --if-changed",
     "capture:iteration": "npm run build && node scripts/export-html.mjs && node scripts/capture-iteration.mjs",
-    "history:package": "node scripts/package-visual-history.mjs"
+    "history:package": "node scripts/package-visual-history.mjs",
+    "verify:solar": "verification/.venv/bin/python verification/verify.py",
+    "verify:solar:tools": "verification/.venv/bin/python -m unittest discover -s verification -p \"test_*.py\" && node verification/check-runtime.mjs",
+    "check:mobile": "npm run build && node scripts/export-html.mjs && node scripts/check-mobile.mjs"
   },
   "dependencies": {
     "astronomy-engine": "2.1.19",

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "status": "pinned",
+  "url": "https://ssd.jpl.nasa.gov/ftp/eph/planets/bsp/de440s.bsp",
+  "file": "de440s.bsp",
+  "sha256": "c1c7feeab882263fc493a9d5a5b2ddd71b54826cdf65d8d17a76126b260a49f2",
+  "retrievedAt": "2026-10-30T11:31:15.013851+00:00",
+  "reason": null,
+  "delivery": "User uploaded file after reporting direct download from the official JPL URL; not independently fetched by this environment.",
+  "sizeBytes": 32726016
+}

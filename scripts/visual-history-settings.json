@@ -5,6 +5,8 @@
   "longitude": 0,
   "devices": [
     {"name": "desktop", "width": 1440, "height": 1000},
-    {"name": "mobile", "width": 390, "height": 844}
+    {"name": "mobile", "width": 390, "height": 844, "touch": true},
+    {"name": "small-mobile", "width": 360, "height": 740, "touch": true},
+    {"name": "mobile-landscape", "width": 844, "height": 390, "touch": true}
   ]
 }
