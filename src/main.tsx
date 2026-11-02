@@ -7,6 +7,7 @@ import {LocationControl} from './LocationControl';
 import {latitudeLabel, readLocation, restoreCityLongitude, saveLocation, seasonLabels, type SolarLocation} from './location';
 import {astronomicalCalendar, daylightForYear} from './astronomy';
 import {useMobileLayout} from './useMobileLayout';
+import {Analytics} from '@vercel/analytics/react';
 import './style.css';
 const now=new Date();
 const year=now.getFullYear();
@@ -115,6 +116,7 @@ function App(){
   <div className="mobile-daylight"><p className="mobile-duration" aria-live="polite" aria-atomic="true"><span className="sr-only">{dateLabel(displayed)}: </span>{formatDaylight(daylight[displayed.index])}</p><span className="mobile-light-caption">of daylight</span></div>
  </section>
  <section className="day-readout" aria-label="Day details"><div className="readout-date"><span className="eyebrow">{hover?'EXPLORING':selected?'SELECTED DAY':'TODAY'}<span className="tiny-dot"/></span><h1>{dateLabel(displayed)}</h1></div><div className="readout-light"><span className="eyebrow" title="Solar center above the geometric horizon; no atmosphere or terrain. Calculated locally with Astronomy Engine and checked against archived NASA/JPL Horizons tables.">DAYLIGHT</span><p aria-live="polite" aria-atomic="true"><span className="sr-only">{dateLabel(displayed)}: </span>{formatDaylight(daylight[displayed.index])}<span className="daylight-unit">of light</span></p><div className="view-options"><button type="button" className="view-toggle" role="switch" aria-checked={showReference} aria-label="Show 12-hour line" onClick={()=>setShowReference(value=>!value)}><span className="view-toggle-track" aria-hidden="true"/><span>12-hour line</span></button></div></div><LocationControl mobile={mobile} location={location} onChange={updateLocation}/></section>
+ <Analytics />
  </main>;
 }
 createRoot(document.getElementById('root')!).render(<App/>);
